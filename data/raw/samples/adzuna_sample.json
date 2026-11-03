@@ -1,0 +1,668 @@
+{
+  "results": [
+    {
+      "salary_is_predicted": "1",
+      "id": "5905118424",
+      "redirect_url": "https://www.adzuna.com/details/5905118424?utm_medium=api&utm_source=2646083e",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Plymouth, Wayne County",
+        "area": [
+          "US",
+          "Michigan",
+          "Wayne County",
+          "Plymouth"
+        ]
+      },
+      "description": "As an Instructional Designer, you design, develop and maintain e-learning that supports employee performance in a manufacturing environment. Partnering with manufacturing subject matter experts and L&D colleagues, you\u2019ll translate technical and operational information into practical, engaging training that helps employees perform their jobs safely, efficiently and consistently. This is a fully on-site position located at our corporate headquarters in Plymouth, MI. You Will: Own and maintain man\u2026",
+      "latitude": 42.369334,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNXBjMGRSelg4UkdpR2EzVjRub0JEZyIsImkiOiI1OTA1MTE4NDI0In0.NiQ3sdaSjOVGS6sxuDnQlu3HKGn89f3_OnLlDDn6tC4",
+      "title": "Instructional Designer",
+      "salary_max": 69208.33,
+      "created": "2026-10-01T03:38:15Z",
+      "company": {
+        "display_name": "Plastipak Packaging, Inc.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "tag": "healthcare-nursing-jobs",
+        "label": "Healthcare & Nursing Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_min": 69208.33,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": -83.487363,
+      "contract_time": "full_time"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Mt Auburn, Hamilton County",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "US",
+          "Ohio",
+          "Hamilton County",
+          "Mt Auburn"
+        ]
+      },
+      "description": "The University of Cincinnati seeks an Instructional Designer for the Ohio Cyber Range Institute within the School of Information Technology (CECH). This role designs engaging online, hybrid, and technology-enhanced learning experiences that support cybersecurity and IT education. The Instructional Designer collaborates closely with faculty and subject matter experts to create outcomes-based curricula, interactive modules, and assessments that align with adult learning and accessibility standard\u2026",
+      "latitude": 39.1303,
+      "longitude": -84.51557,
+      "title": "Instructional Designer",
+      "salary_max": 120000,
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTkwMDUwNDc2OSIsInMiOiI1cGMwZFJ6WDhSR2lHYTNWNG5vQkRnIn0.LMIq3WKNz7_ow9xb4YNFJXIZgvPc1mH8a96EYzvf_Cc",
+      "redirect_url": "https://www.adzuna.com/land/ad/5900504769?se=5pc0dRzX8RGiGa3V4noBDg&utm_medium=api&utm_source=2646083e&v=3A2F6CF9B31B14113C7F9370C59B59671550154A",
+      "salary_min": 90000,
+      "created": "2026-09-27T05:52:31Z",
+      "id": "5900504769",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "University of Cincinnati"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Teaching Jobs",
+        "tag": "teaching-jobs"
+      }
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNXBjMGRSelg4UkdpR2EzVjRub0JEZyIsImkiOiI1OTQ5Mzg0NzcyIn0.ub-dVjtz7in1_qQoMifrrnsrBKk-MPEAiBIEiUx-7YQ",
+      "salary_is_predicted": "0",
+      "title": "Instructional Designer",
+      "salary_max": 90000,
+      "category": {
+        "label": "HR & Recruitment Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "hr-jobs"
+      },
+      "company": {
+        "display_name": "SERVPRO",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-11-01T08:59:55Z",
+      "id": "5949384772",
+      "salary_min": 65000,
+      "redirect_url": "https://www.adzuna.com/land/ad/5949384772?se=5pc0dRzX8RGiGa3V4noBDg&utm_medium=api&utm_source=2646083e&v=98CA22432D6F366BE801CBBE5102841DCE2F8524",
+      "location": {
+        "area": [
+          "US",
+          "Tennessee",
+          "Sumner County",
+          "Walnut Grove"
+        ],
+        "display_name": "Walnut Grove, Sumner County",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": -86.607522,
+      "latitude": 36.497881,
+      "description": "Design and maintain learning content for SERVPRO franchisees and headquarters teams across restoration, construction, office, business development, leadership, and onboarding programs. Translate operational standards into engaging, measurable learning experiences for on-demand, virtual, and instructor-led delivery. Partner with subject matter experts and internal teams to ensure content is accurate, accessible, and aligned with business needs. Build on-demand modules, instructor-led training, b\u2026"
+    },
+    {
+      "description": "Design and maintain learning content for SERVPRO franchisees and headquarters teams across restoration, construction, office, business development, leadership, and onboarding programs. Translate operational standards into engaging, measurable learning experiences for on-demand, virtual, and instructor-led delivery. Partner with subject matter experts and internal teams to ensure content is accurate, accessible, and aligned with business needs. Build on-demand modules, instructor-led training, b\u2026",
+      "latitude": 36.574334,
+      "longitude": -86.505649,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "US",
+          "Tennessee",
+          "Sumner County",
+          "Portland"
+        ],
+        "display_name": "Portland, Sumner County",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "redirect_url": "https://www.adzuna.com/land/ad/5949282512?se=5pc0dRzX8RGiGa3V4noBDg&utm_medium=api&utm_source=2646083e&v=50298019732B3BB1C3C91A7ED8414B240A2E9688",
+      "salary_min": 65000,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "SERVPRO"
+      },
+      "created": "2026-11-01T08:07:58Z",
+      "id": "5949282512",
+      "category": {
+        "tag": "hr-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "HR & Recruitment Jobs"
+      },
+      "salary_is_predicted": "0",
+      "title": "Instructional Designer",
+      "salary_max": 90000,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk0OTI4MjUxMiIsInMiOiI1cGMwZFJ6WDhSR2lHYTNWNG5vQkRnIn0.InTwLU-sW9zDYgZoFZDxR5ar-1-IbYIzKCbsk2mdDW4"
+    },
+    {
+      "salary_is_predicted": "0",
+      "title": "Instructional Designer",
+      "salary_max": 90000,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk0OTIxODkwMSIsInMiOiI1cGMwZFJ6WDhSR2lHYTNWNG5vQkRnIn0.Wy4NH2hH-h3cJEa3JI4k-jVIYjulSPKlFhoUxmk9jKA",
+      "redirect_url": "https://www.adzuna.com/land/ad/5949218901?se=5pc0dRzX8RGiGa3V4noBDg&utm_medium=api&utm_source=2646083e&v=32436826D19C317265CD38DA9A3B533C1E995CFA",
+      "salary_min": 65000,
+      "created": "2026-11-01T07:20:17Z",
+      "id": "5949218901",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "SERVPRO"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "HR & Recruitment Jobs",
+        "tag": "hr-jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Goodlettsville, Davidson County",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "US",
+          "Tennessee",
+          "Davidson County",
+          "Goodlettsville"
+        ]
+      },
+      "description": "Design and maintain learning content for SERVPRO franchisees and headquarters teams across restoration, construction, office, business development, leadership, and onboarding programs. Translate operational standards into engaging, measurable learning experiences for on-demand, virtual, and instructor-led delivery. Partner with subject matter experts and internal teams to ensure content is accurate, accessible, and aligned with business needs. Build on-demand modules, instructor-led training, b\u2026",
+      "latitude": 36.344587,
+      "longitude": -86.721229
+    },
+    {
+      "longitude": -86.830567,
+      "description": "Design and maintain learning content for SERVPRO franchisees and headquarters teams across restoration, construction, office, business development, leadership, and onboarding programs. Translate operational standards into engaging, measurable learning experiences for on-demand, virtual, and instructor-led delivery. Partner with subject matter experts and internal teams to ensure content is accurate, accessible, and aligned with business needs. Build on-demand modules, instructor-led training, b\u2026",
+      "latitude": 36.274926,
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Whites Creek, Davidson County",
+        "area": [
+          "US",
+          "Tennessee",
+          "Davidson County",
+          "Whites Creek"
+        ]
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "5949358668",
+      "created": "2026-11-01T08:47:23Z",
+      "company": {
+        "display_name": "SERVPRO",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "tag": "hr-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "HR & Recruitment Jobs"
+      },
+      "redirect_url": "https://www.adzuna.com/land/ad/5949358668?se=5pc0dRzX8RGiGa3V4noBDg&utm_medium=api&utm_source=2646083e&v=09641350F8A5A3741B0C75E4C99543B52FCA9380",
+      "salary_min": 65000,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNXBjMGRSelg4UkdpR2EzVjRub0JEZyIsImkiOiI1OTQ5MzU4NjY4In0.ODDohiRG8Af8qJ5ZbcpSmybKZuiI5f2bjTdLk87Tg1k",
+      "title": "Instructional Designer",
+      "salary_is_predicted": "0",
+      "salary_max": 90000
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk0OTIxMTAwOCIsInMiOiI1cGMwZFJ6WDhSR2lHYTNWNG5vQkRnIn0.ELjqhI9MU6pQ-svzfIBnyt18ZTTTYVvejfsHwyWdu-A",
+      "salary_is_predicted": "0",
+      "title": "Instructional Designer",
+      "salary_max": 90000,
+      "category": {
+        "label": "HR & Recruitment Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "hr-jobs"
+      },
+      "id": "5949211008",
+      "created": "2026-11-01T07:14:24Z",
+      "company": {
+        "display_name": "SERVPRO",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_min": 65000,
+      "redirect_url": "https://www.adzuna.com/land/ad/5949211008?se=5pc0dRzX8RGiGa3V4noBDg&utm_medium=api&utm_source=2646083e&v=D3061DC19AD359C90CFF9C5E8450B42CCB6E1697",
+      "location": {
+        "area": [
+          "US",
+          "Tennessee",
+          "Wilson County",
+          "Lebanon"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Lebanon, Wilson County"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": -86.2911,
+      "latitude": 36.20802,
+      "description": "Design and maintain learning content for SERVPRO franchisees and headquarters teams across restoration, construction, office, business development, leadership, and onboarding programs. Translate operational standards into engaging, measurable learning experiences for on-demand, virtual, and instructor-led delivery. Partner with subject matter experts and internal teams to ensure content is accurate, accessible, and aligned with business needs. Build on-demand modules, instructor-led training, b\u2026"
+    },
+    {
+      "latitude": 36.212711,
+      "description": "Design and maintain learning content for SERVPRO franchisees and headquarters teams across restoration, construction, office, business development, leadership, and onboarding programs. Translate operational standards into engaging, measurable learning experiences for on-demand, virtual, and instructor-led delivery. Partner with subject matter experts and internal teams to ensure content is accurate, accessible, and aligned with business needs. Build on-demand modules, instructor-led training, b\u2026",
+      "longitude": -86.725025,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Jere Baxter, Davidson County",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "US",
+          "Tennessee",
+          "Davidson County",
+          "Jere Baxter"
+        ]
+      },
+      "salary_min": 65000,
+      "redirect_url": "https://www.adzuna.com/land/ad/5949210134?se=5pc0dRzX8RGiGa3V4noBDg&utm_medium=api&utm_source=2646083e&v=64FEB70E27F3E06A9FE9EB6EB23171BEAC72B5B3",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "HR & Recruitment Jobs",
+        "tag": "hr-jobs"
+      },
+      "id": "5949210134",
+      "created": "2026-11-01T07:14:06Z",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "SERVPRO"
+      },
+      "salary_max": 90000,
+      "title": "Instructional Designer",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk0OTIxMDEzNCIsInMiOiI1cGMwZFJ6WDhSR2lHYTNWNG5vQkRnIn0.f8VzWBpJBpXddoZS_CA9rebUqcIahqXpyxSpTg0zQYA"
+    },
+    {
+      "longitude": -86.2256,
+      "description": "Design and maintain learning content for SERVPRO franchisees and headquarters teams across restoration, construction, office, business development, leadership, and onboarding programs. Translate operational standards into engaging, measurable learning experiences for on-demand, virtual, and instructor-led delivery. Partner with subject matter experts and internal teams to ensure content is accurate, accessible, and aligned with business needs. Build on-demand modules, instructor-led training, b\u2026",
+      "latitude": 36.5762,
+      "location": {
+        "display_name": "Westmoreland, Sumner County",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "US",
+          "Tennessee",
+          "Sumner County",
+          "Westmoreland"
+        ]
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-11-01T08:42:05Z",
+      "id": "5949347830",
+      "company": {
+        "display_name": "SERVPRO",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "label": "HR & Recruitment Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "hr-jobs"
+      },
+      "redirect_url": "https://www.adzuna.com/land/ad/5949347830?se=5pc0dRzX8RGiGa3V4noBDg&utm_medium=api&utm_source=2646083e&v=E34882EA9F830158E1D5E2EA7BB0AD89C7D45AAA",
+      "salary_min": 65000,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNXBjMGRSelg4UkdpR2EzVjRub0JEZyIsImkiOiI1OTQ5MzQ3ODMwIn0.adkj6eq3eRUZEg2g53w53HiRNgAxRSM_INsxhX-UrY4",
+      "salary_is_predicted": "0",
+      "title": "Instructional Designer",
+      "salary_max": 90000
+    },
+    {
+      "description": "Design and maintain learning content for SERVPRO franchisees and headquarters teams across restoration, construction, office, business development, leadership, and onboarding programs. Translate operational standards into engaging, measurable learning experiences for on-demand, virtual, and instructor-led delivery. Partner with subject matter experts and internal teams to ensure content is accurate, accessible, and aligned with business needs. Build on-demand modules, instructor-led training, b\u2026",
+      "latitude": 36.185416,
+      "longitude": -86.600435,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Hermitage, Davidson County",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "US",
+          "Tennessee",
+          "Davidson County",
+          "Hermitage"
+        ]
+      },
+      "redirect_url": "https://www.adzuna.com/land/ad/5949347890?se=5pc0dRzX8RGiGa3V4noBDg&utm_medium=api&utm_source=2646083e&v=570177143E9AFB0228B62FAC17F9718D3E817193",
+      "salary_min": 65000,
+      "created": "2026-11-01T08:42:06Z",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "SERVPRO"
+      },
+      "id": "5949347890",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "HR & Recruitment Jobs",
+        "tag": "hr-jobs"
+      },
+      "title": "Instructional Designer",
+      "salary_is_predicted": "0",
+      "salary_max": 90000,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNXBjMGRSelg4UkdpR2EzVjRub0JEZyIsImkiOiI1OTQ5MzQ3ODkwIn0.NuTxB9INQHf9x4yCoUhsG2oUS6OXE7v2e8cgIT_egTs"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "US",
+          "Tennessee",
+          "Sumner County",
+          "Hendersonville"
+        ],
+        "display_name": "Hendersonville, Sumner County",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "latitude": 36.312694,
+      "description": "Design and maintain learning content for SERVPRO franchisees and headquarters teams across restoration, construction, office, business development, leadership, and onboarding programs. Translate operational standards into engaging, measurable learning experiences for on-demand, virtual, and instructor-led delivery. Partner with subject matter experts and internal teams to ensure content is accurate, accessible, and aligned with business needs. Build on-demand modules, instructor-led training, b\u2026",
+      "longitude": -86.606982,
+      "salary_is_predicted": "0",
+      "title": "Instructional Designer",
+      "salary_max": 90000,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk0OTI1MDQwNiIsInMiOiI1cGMwZFJ6WDhSR2lHYTNWNG5vQkRnIn0.KUzgSBXUmuueihOsGlLQtKCu0RT_IMEXMy3KeKMTSvQ",
+      "salary_min": 65000,
+      "redirect_url": "https://www.adzuna.com/land/ad/5949250406?se=5pc0dRzX8RGiGa3V4noBDg&utm_medium=api&utm_source=2646083e&v=FDE609A26D1374B668DBBC41CCF975E59DCA49D8",
+      "category": {
+        "tag": "hr-jobs",
+        "label": "HR & Recruitment Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "created": "2026-11-01T07:38:35Z",
+      "id": "5949250406",
+      "company": {
+        "display_name": "SERVPRO",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      }
+    },
+    {
+      "description": "Design and maintain learning content for SERVPRO franchisees and headquarters teams across restoration, construction, office, business development, leadership, and onboarding programs. Translate operational standards into engaging, measurable learning experiences for on-demand, virtual, and instructor-led delivery. Partner with subject matter experts and internal teams to ensure content is accurate, accessible, and aligned with business needs. Build on-demand modules, instructor-led training, b\u2026",
+      "latitude": 36.671558,
+      "longitude": -86.275675,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "US",
+          "Kentucky",
+          "Monroe County",
+          "Fleet"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Fleet, Monroe County"
+      },
+      "redirect_url": "https://www.adzuna.com/land/ad/5949335526?se=5pc0dRzX8RGiGa3V4noBDg&utm_medium=api&utm_source=2646083e&v=9FFB82E2677DE96E3E21343C4995114719625CDC",
+      "salary_min": 65000,
+      "created": "2026-11-01T08:35:17Z",
+      "id": "5949335526",
+      "company": {
+        "display_name": "SERVPRO",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "tag": "hr-jobs",
+        "label": "HR & Recruitment Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_is_predicted": "0",
+      "title": "Instructional Designer",
+      "salary_max": 90000,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk0OTMzNTUyNiIsInMiOiI1cGMwZFJ6WDhSR2lHYTNWNG5vQkRnIn0.rpukc-Zw4JzxBvk8F1z7sVoZMBIg95NkU6UOnjJeNQ4"
+    },
+    {
+      "latitude": 36.236276,
+      "description": "Design and maintain learning content for SERVPRO franchisees and headquarters teams across restoration, construction, office, business development, leadership, and onboarding programs. Translate operational standards into engaging, measurable learning experiences for on-demand, virtual, and instructor-led delivery. Partner with subject matter experts and internal teams to ensure content is accurate, accessible, and aligned with business needs. Build on-demand modules, instructor-led training, b\u2026",
+      "longitude": -86.610164,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "US",
+          "Tennessee",
+          "Davidson County",
+          "Lakewood"
+        ],
+        "display_name": "Lakewood, Davidson County",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "salary_min": 65000,
+      "redirect_url": "https://www.adzuna.com/land/ad/5949368038?se=5pc0dRzX8RGiGa3V4noBDg&utm_medium=api&utm_source=2646083e&v=537F5A90C9DF79F53295A4183CD8B060237C410F",
+      "category": {
+        "label": "HR & Recruitment Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "hr-jobs"
+      },
+      "id": "5949368038",
+      "created": "2026-11-01T08:51:38Z",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "SERVPRO"
+      },
+      "title": "Instructional Designer",
+      "salary_is_predicted": "0",
+      "salary_max": 90000,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk0OTM2ODAzOCIsInMiOiI1cGMwZFJ6WDhSR2lHYTNWNG5vQkRnIn0.sK-bOFtvdvjZfYiIwEiBj9ZqLEk8i5xgG8l4_Y3Cpb8"
+    },
+    {
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "HR & Recruitment Jobs",
+        "tag": "hr-jobs"
+      },
+      "created": "2026-11-01T08:24:33Z",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "SERVPRO"
+      },
+      "id": "5949312402",
+      "salary_min": 65000,
+      "redirect_url": "https://www.adzuna.com/land/ad/5949312402?se=5pc0dRzX8RGiGa3V4noBDg&utm_medium=api&utm_source=2646083e&v=579A02B017FFB751711CF6CC99B09DA4550DD9A4",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk0OTMxMjQwMiIsInMiOiI1cGMwZFJ6WDhSR2lHYTNWNG5vQkRnIn0.YdUNYXR2BArlWVe9rCrRaCHp73s-df--zQX6b0X38ck",
+      "title": "Instructional Designer",
+      "salary_max": 90000,
+      "salary_is_predicted": "0",
+      "longitude": -86.299084,
+      "latitude": 36.148001,
+      "description": "Design and maintain learning content for SERVPRO franchisees and headquarters teams across restoration, construction, office, business development, leadership, and onboarding programs. Translate operational standards into engaging, measurable learning experiences for on-demand, virtual, and instructor-led delivery. Partner with subject matter experts and internal teams to ensure content is accurate, accessible, and aligned with business needs. Build on-demand modules, instructor-led training, b\u2026",
+      "location": {
+        "area": [
+          "US",
+          "Tennessee",
+          "Wilson County",
+          "Norene"
+        ],
+        "display_name": "Norene, Wilson County",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "US",
+          "Kentucky",
+          "Simpson County",
+          "Franklin"
+        ],
+        "display_name": "Franklin, Simpson County",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "latitude": 36.727709,
+      "description": "Design and maintain learning content for SERVPRO franchisees and headquarters teams across restoration, construction, office, business development, leadership, and onboarding programs. Translate operational standards into engaging, measurable learning experiences for on-demand, virtual, and instructor-led delivery. Partner with subject matter experts and internal teams to ensure content is accurate, accessible, and aligned with business needs. Build on-demand modules, instructor-led training, b\u2026",
+      "longitude": -86.575377,
+      "title": "Instructional Designer",
+      "salary_is_predicted": "0",
+      "salary_max": 90000,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNXBjMGRSelg4UkdpR2EzVjRub0JEZyIsImkiOiI1OTQ5MjI2Njk2In0.PvbcgWp6y6pL2QU2QhH6Vr0GQ4VraCIjom_JVG2fVmM",
+      "salary_min": 65000,
+      "redirect_url": "https://www.adzuna.com/land/ad/5949226696?se=5pc0dRzX8RGiGa3V4noBDg&utm_medium=api&utm_source=2646083e&v=8AAD77CA505710FEA6C062483B1349AF8640FC5B",
+      "category": {
+        "tag": "hr-jobs",
+        "label": "HR & Recruitment Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "created": "2026-11-01T07:28:25Z",
+      "id": "5949226696",
+      "company": {
+        "display_name": "SERVPRO",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      }
+    },
+    {
+      "salary_min": 65000,
+      "redirect_url": "https://www.adzuna.com/land/ad/5949232434?se=5pc0dRzX8RGiGa3V4noBDg&utm_medium=api&utm_source=2646083e&v=939114F4362E1F62563940A677D4A7E9D0254D10",
+      "category": {
+        "tag": "hr-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "HR & Recruitment Jobs"
+      },
+      "created": "2026-11-01T07:34:16Z",
+      "company": {
+        "display_name": "SERVPRO",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5949232434",
+      "salary_max": 90000,
+      "title": "Instructional Designer",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk0OTIzMjQzNCIsInMiOiI1cGMwZFJ6WDhSR2lHYTNWNG5vQkRnIn0.jCuQ7BdQSaJGLm0PfVPU9s-tNxtrHAhP2_ECa3NRjeM",
+      "latitude": 36.197863,
+      "description": "Design and maintain learning content for SERVPRO franchisees and headquarters teams across restoration, construction, office, business development, leadership, and onboarding programs. Translate operational standards into engaging, measurable learning experiences for on-demand, virtual, and instructor-led delivery. Partner with subject matter experts and internal teams to ensure content is accurate, accessible, and aligned with business needs. Build on-demand modules, instructor-led training, b\u2026",
+      "longitude": -86.510734,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Mount Juliet, Wilson County",
+        "area": [
+          "US",
+          "Tennessee",
+          "Wilson County",
+          "Mount Juliet"
+        ]
+      }
+    },
+    {
+      "redirect_url": "https://www.adzuna.com/land/ad/5949226045?se=5pc0dRzX8RGiGa3V4noBDg&utm_medium=api&utm_source=2646083e&v=A03879F5BAB8C62C8E9A6D74922752395A6A11E2",
+      "salary_min": 65000,
+      "id": "5949226045",
+      "created": "2026-11-01T07:27:27Z",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "SERVPRO"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "HR & Recruitment Jobs",
+        "tag": "hr-jobs"
+      },
+      "title": "Instructional Designer",
+      "salary_is_predicted": "0",
+      "salary_max": 90000,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk0OTIyNjA0NSIsInMiOiI1cGMwZFJ6WDhSR2lHYTNWNG5vQkRnIn0.OftaHBfz4S2SnQ6jLeL9G5NU0gYJ14hlPQ1ua0db8xc",
+      "description": "Design and maintain learning content for SERVPRO franchisees and headquarters teams across restoration, construction, office, business development, leadership, and onboarding programs. Translate operational standards into engaging, measurable learning experiences for on-demand, virtual, and instructor-led delivery. Partner with subject matter experts and internal teams to ensure content is accurate, accessible, and aligned with business needs. Build on-demand modules, instructor-led training, b\u2026",
+      "latitude": 36.139799,
+      "longitude": -86.739871,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Woodbine, Davidson County",
+        "area": [
+          "US",
+          "Tennessee",
+          "Davidson County",
+          "Woodbine"
+        ]
+      }
+    },
+    {
+      "salary_min": 65000,
+      "redirect_url": "https://www.adzuna.com/land/ad/5949260031?se=5pc0dRzX8RGiGa3V4noBDg&utm_medium=api&utm_source=2646083e&v=590F8D2AF6AB5DCDEFDE0F5EC0F9779992FB913F",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "HR & Recruitment Jobs",
+        "tag": "hr-jobs"
+      },
+      "created": "2026-11-01T07:42:32Z",
+      "id": "5949260031",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "SERVPRO"
+      },
+      "salary_max": 90000,
+      "title": "Instructional Designer",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNXBjMGRSelg4UkdpR2EzVjRub0JEZyIsImkiOiI1OTQ5MjYwMDMxIn0.iQkil9E_3SDdKEiWOrOxKtV5S7SAqp1xFMozLloN_hE",
+      "latitude": 36.606801,
+      "description": "Design and maintain learning content for SERVPRO franchisees and headquarters teams across restoration, construction, office, business development, leadership, and onboarding programs. Translate operational standards into engaging, measurable learning experiences for on-demand, virtual, and instructor-led delivery. Partner with subject matter experts and internal teams to ensure content is accurate, accessible, and aligned with business needs. Build on-demand modules, instructor-led training, b\u2026",
+      "longitude": -86.707198,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "US",
+          "Tennessee",
+          "Robertson County",
+          "Orlinda"
+        ],
+        "display_name": "Orlinda, Robertson County",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      }
+    },
+    {
+      "longitude": -86.775514,
+      "latitude": 36.223535,
+      "description": "Design and maintain learning content for SERVPRO franchisees and headquarters teams across restoration, construction, office, business development, leadership, and onboarding programs. Translate operational standards into engaging, measurable learning experiences for on-demand, virtual, and instructor-led delivery. Partner with subject matter experts and internal teams to ensure content is accurate, accessible, and aligned with business needs. Build on-demand modules, instructor-led training, b\u2026",
+      "location": {
+        "area": [
+          "US",
+          "Tennessee",
+          "Davidson County",
+          "Northeast"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Northeast, Davidson County"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "HR & Recruitment Jobs",
+        "tag": "hr-jobs"
+      },
+      "created": "2026-11-01T07:47:26Z",
+      "id": "5949263056",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "SERVPRO"
+      },
+      "salary_min": 65000,
+      "redirect_url": "https://www.adzuna.com/land/ad/5949263056?se=5pc0dRzX8RGiGa3V4noBDg&utm_medium=api&utm_source=2646083e&v=4B0334141F1A2238899703AD80EE75B5C0B10961",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNXBjMGRSelg4UkdpR2EzVjRub0JEZyIsImkiOiI1OTQ5MjYzMDU2In0.k5kRUCn9FjEy5UNza8qwNx68D9ACapvFLbFYfIbd8_8",
+      "salary_is_predicted": "0",
+      "title": "Instructional Designer",
+      "salary_max": 90000
+    },
+    {
+      "salary_is_predicted": "0",
+      "title": "Instructional Designer",
+      "salary_max": 90000,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNXBjMGRSelg4UkdpR2EzVjRub0JEZyIsImkiOiI1OTQ5MjgwMDQ5In0.fbtOSLM-HBhEclw4qTYtzjBPn5-S2_f4YcfDJISFI6c",
+      "redirect_url": "https://www.adzuna.com/land/ad/5949280049?se=5pc0dRzX8RGiGa3V4noBDg&utm_medium=api&utm_source=2646083e&v=56D0307DB6342DE48C2DCCDD1D46F74A5D5434C0",
+      "salary_min": 65000,
+      "company": {
+        "display_name": "SERVPRO",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-11-01T08:05:04Z",
+      "id": "5949280049",
+      "category": {
+        "tag": "hr-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "HR & Recruitment Jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Hartsville, Trousdale County",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "US",
+          "Tennessee",
+          "Trousdale County",
+          "Hartsville"
+        ]
+      },
+      "description": "Design and maintain learning content for SERVPRO franchisees and headquarters teams across restoration, construction, office, business development, leadership, and onboarding programs. Translate operational standards into engaging, measurable learning experiences for on-demand, virtual, and instructor-led delivery. Partner with subject matter experts and internal teams to ensure content is accurate, accessible, and aligned with business needs. Build on-demand modules, instructor-led training, b\u2026",
+      "latitude": 36.408021,
+      "longitude": -86.153559
+    }
+  ],
+  "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+  "count": 18703,
+  "mean": 81737.71
+}
