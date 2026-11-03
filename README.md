@@ -37,3 +37,4 @@ Few programs target ed-tech product roles directly, so I used ed-tech leadership
 - Excluded after robots.txt check: Iowa State, Drexel Online, Central Michigan, Michigan Tech, NC State (all disallow automated access). Drexel shows that rules differ by subdomain: drexel.edu allowed, online.drexel.edu blocked
 - UW-Green Bay and Kennesaw State could not be checked by script (local SSL error) and were skipped
 - Few US programs target ed-tech product roles directly, so ed-tech leadership programs are used as proxies
+- Skill taxonomy: draft of 57 skills built by hand (data/taxonomy_draft.csv), including skills from my teaching and MBA background; to be extended with O*NET skills

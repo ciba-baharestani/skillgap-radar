@@ -1,0 +1,58 @@
+skill_id,canonical_name,category,synonyms,source
+LD01,ADDIE,Learning design,addie model;addie framework,manual
+LD02,Backward design,Learning design,understanding by design;ubd,manual
+LD03,Assessment design,Learning design,assessment development;test design;rubric design,manual
+LD04,Needs analysis,Learning design,training needs analysis;learning needs assessment;tna,manual
+LD05,Bloom's taxonomy,Learning design,blooms taxonomy;learning objectives,manual
+LD06,Curriculum development,Learning design,curriculum design;course development;course design,manual
+LD07,Storyboarding,Learning design,storyboards;storyboard,manual
+LD08,Adult learning theory,Learning design,andragogy;adult learning principles,manual
+LD09,Accessibility,Learning design,wcag;section 508;ada compliance;universal design for learning;udl,manual
+LD10,SAM,Learning design,successive approximation model,manual
+LD11,Learning evaluation,Learning design,kirkpatrick;program evaluation;training evaluation,manual
+AT01,Articulate Storyline,Authoring tools,storyline;storyline 360;articulate 360,manual
+AT02,Articulate Rise,Authoring tools,rise 360;rise,manual
+AT03,Adobe Captivate,Authoring tools,captivate,manual
+AT04,Camtasia,Authoring tools,techsmith camtasia,manual
+AT05,Adobe Creative Suite,Authoring tools,photoshop;illustrator;adobe creative cloud,manual
+AT06,Video production,Authoring tools,video editing;video creation,manual
+AT07,SCORM,Authoring tools,scorm packaging;aicc,manual
+LMS01,Learning management system,LMS and platforms,lms;lms administration;lms management,manual
+LMS02,Canvas,LMS and platforms,canvas lms;instructure canvas,manual
+LMS03,Moodle,LMS and platforms,moodle lms,manual
+LMS04,Blackboard,LMS and platforms,blackboard learn,manual
+LMS05,Cornerstone,LMS and platforms,cornerstone ondemand;csod,manual
+LMS06,Workday Learning,LMS and platforms,workday,manual
+LMS07,Docebo,LMS and platforms,docebo lms,manual
+LMS08,Learning experience platform,LMS and platforms,lxp;degreed,manual
+DA01,SQL,Data and analytics,structured query language;mysql;postgresql,manual
+DA02,Python,Data and analytics,python programming,manual
+DA03,R,Data and analytics,r programming;rstudio,manual
+DA04,Excel,Data and analytics,microsoft excel;spreadsheets;google sheets,manual
+DA05,Tableau,Data and analytics,tableau desktop,manual
+DA06,Power BI,Data and analytics,powerbi;microsoft power bi,manual
+DA07,xAPI,Data and analytics,experience api;tin can;learning record store;lrs,manual
+DA08,Learning analytics,Data and analytics,educational data mining;learner analytics,manual
+DA09,Data visualization,Data and analytics,dashboards;data viz;reporting,manual
+DA10,Statistics,Data and analytics,statistical analysis,manual
+BP01,Stakeholder management,Business and product,stakeholder engagement;stakeholder communication,manual
+BP02,Project management,Business and product,project coordination;project planning;pmp,manual
+BP03,Agile,Business and product,scrum;kanban,manual
+BP04,SME collaboration,Business and product,subject matter expert;working with smes,manual
+BP05,Product management,Business and product,product owner;product roadmap,manual
+BP06,ROI measurement,Business and product,return on investment;training roi,manual
+BP07,Customer success,Business and product,client success;account management,manual
+PP01,Facilitation,People skills,workshop facilitation;instructor-led training;ilt;training delivery,manual
+PP02,Coaching,People skills,mentoring;performance coaching,manual
+PP03,Presentation skills,People skills,public speaking;presenting,manual
+PP04,Written communication,People skills,technical writing;documentation,manual
+PP05,Change management,People skills,organizational change,manual
+PP06,Virtual training,People skills,vilt;virtual instructor-led training;webinar,manual
+LD12,Formative assessment,Learning design,formative assessments;checks for understanding;learner feedback,manual
+LD13,Differentiated instruction,Learning design,differentiation;personalized learning;adaptive learning,manual
+LD14,Outcomes-based design,Learning design,outcomes-based;competency-based;measurable outcomes,manual
+PP07,Learner engagement,People skills,student engagement;engagement strategies;learner motivation,manual
+PP08,Cross-functional collaboration,People skills,cross-functional teams;team collaboration,manual
+BP08,Strategic planning,Business and product,business strategy;business acumen;strategy,manual
+BP09,Budget management,Business and product,budgeting;financial management;cost management,manual
+BP10,Data-driven decision making,Business and product,data-informed decision making;metrics;kpis,manual
