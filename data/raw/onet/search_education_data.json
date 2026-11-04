@@ -1,0 +1,58 @@
+{
+  "start": 1,
+  "end": 8,
+  "total": 664,
+  "next": "https://api-v2.onetcenter.org/online/search?keyword=education%20data&start=9&end=16",
+  "occupation": [
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/21-1091.00/",
+      "code": "21-1091.00",
+      "title": "Health Education Specialists",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/21-2021.00/",
+      "code": "21-2021.00",
+      "title": "Directors, Religious Activities and Education",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/25-2059.01/",
+      "code": "25-2059.01",
+      "title": "Adapted Physical Education Specialists",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/25-3011.00/",
+      "code": "25-3011.00",
+      "title": "Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/11-9032.00/",
+      "code": "11-9032.00",
+      "title": "Education Administrators, Kindergarten through Secondary",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/25-1081.00/",
+      "code": "25-1081.00",
+      "title": "Education Teachers, Postsecondary",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/25-2057.00/",
+      "code": "25-2057.00",
+      "title": "Special Education Teachers, Middle School",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/25-9043.00/",
+      "code": "25-9043.00",
+      "title": "Teaching Assistants, Special Education",
+      "tags": {}
+    }
+  ]
+}

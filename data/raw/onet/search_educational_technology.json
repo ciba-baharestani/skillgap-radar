@@ -1,0 +1,62 @@
+{
+  "start": 1,
+  "end": 8,
+  "total": 440,
+  "next": "https://api-v2.onetcenter.org/online/search?keyword=educational%20technology&start=9&end=16",
+  "occupation": [
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/25-9031.00/",
+      "code": "25-9031.00",
+      "title": "Instructional Coordinators",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/21-1012.00/",
+      "code": "21-1012.00",
+      "title": "Educational, Guidance, and Career Counselors and Advisors",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-1299.09/",
+      "code": "15-1299.09",
+      "title": "Information Technology Project Managers",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/25-1071.00/",
+      "code": "25-1071.00",
+      "title": "Health Specialties Teachers, Postsecondary",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/25-9043.00/",
+      "code": "25-9043.00",
+      "title": "Teaching Assistants, Special Education",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/25-2023.00/",
+      "code": "25-2023.00",
+      "title": "Career/Technical Education Teachers, Middle School",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/25-2032.00/",
+      "code": "25-2032.00",
+      "title": "Career/Technical Education Teachers, Secondary School",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-1211.01/",
+      "code": "15-1211.01",
+      "title": "Health Informatics Specialists",
+      "tags": {
+        "bright_outlook": true
+      }
+    }
+  ]
+}

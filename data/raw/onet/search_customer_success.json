@@ -1,0 +1,64 @@
+{
+  "start": 1,
+  "end": 8,
+  "total": 383,
+  "next": "https://api-v2.onetcenter.org/online/search?keyword=customer%20success&start=9&end=16",
+  "occupation": [
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/27-3031.00/",
+      "code": "27-3031.00",
+      "title": "Public Relations Specialists",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/41-9031.00/",
+      "code": "41-9031.00",
+      "title": "Sales Engineers",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/43-1011.00/",
+      "code": "43-1011.00",
+      "title": "First-Line Supervisors of Office and Administrative Support Workers",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-1231.00/",
+      "code": "15-1231.00",
+      "title": "Computer Network Support Specialists",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/21-1015.00/",
+      "code": "21-1015.00",
+      "title": "Rehabilitation Counselors",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/21-1012.00/",
+      "code": "21-1012.00",
+      "title": "Educational, Guidance, and Career Counselors and Advisors",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/43-4051.00/",
+      "code": "43-4051.00",
+      "title": "Customer Service Representatives",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/55-1011.00/",
+      "code": "55-1011.00",
+      "title": "Air Crew Officers",
+      "tags": {}
+    }
+  ]
+}

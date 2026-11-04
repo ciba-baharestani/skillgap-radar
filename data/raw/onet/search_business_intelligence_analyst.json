@@ -1,0 +1,68 @@
+{
+  "start": 1,
+  "end": 8,
+  "total": 346,
+  "next": "https://api-v2.onetcenter.org/online/search?keyword=business%20intelligence%20analyst&start=9&end=16",
+  "occupation": [
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-2051.01/",
+      "code": "15-2051.01",
+      "title": "Business Intelligence Analysts",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/33-3021.06/",
+      "code": "33-3021.06",
+      "title": "Intelligence Analysts",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/13-1071.00/",
+      "code": "13-1071.00",
+      "title": "Human Resources Specialists",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-2051.00/",
+      "code": "15-2051.00",
+      "title": "Data Scientists",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-1252.00/",
+      "code": "15-1252.00",
+      "title": "Software Developers",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/13-2099.04/",
+      "code": "13-2099.04",
+      "title": "Fraud Examiners, Investigators and Analysts",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-1299.00/",
+      "code": "15-1299.00",
+      "title": "Computer Occupations, All Other",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-1299.05/",
+      "code": "15-1299.05",
+      "title": "Information Security Engineers",
+      "tags": {
+        "bright_outlook": true
+      }
+    }
+  ]
+}

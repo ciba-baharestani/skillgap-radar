@@ -1,0 +1,66 @@
+{
+  "start": 1,
+  "end": 8,
+  "total": 495,
+  "next": "https://api-v2.onetcenter.org/online/search?keyword=market%20research%20analyst&start=9&end=16",
+  "occupation": [
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/13-1161.00/",
+      "code": "13-1161.00",
+      "title": "Market Research Analysts and Marketing Specialists",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-4061.00/",
+      "code": "19-4061.00",
+      "title": "Social Science Research Assistants",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/11-2021.00/",
+      "code": "11-2021.00",
+      "title": "Marketing Managers",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/13-1161.01/",
+      "code": "13-1161.01",
+      "title": "Search Marketing Strategists",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-3022.00/",
+      "code": "19-3022.00",
+      "title": "Survey Researchers",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/13-2054.00/",
+      "code": "13-2054.00",
+      "title": "Financial Risk Specialists",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/",
+      "code": "15-2031.00",
+      "title": "Operations Research Analysts",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-2041.01/",
+      "code": "19-2041.01",
+      "title": "Climate Change Policy Analysts",
+      "tags": {}
+    }
+  ]
+}

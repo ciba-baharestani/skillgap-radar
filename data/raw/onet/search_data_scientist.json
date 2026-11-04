@@ -1,0 +1,60 @@
+{
+  "start": 1,
+  "end": 8,
+  "total": 632,
+  "next": "https://api-v2.onetcenter.org/online/search?keyword=data%20scientist&start=9&end=16",
+  "occupation": [
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-2051.00/",
+      "code": "15-2051.00",
+      "title": "Data Scientists",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-1221.00/",
+      "code": "15-1221.00",
+      "title": "Computer and Information Research Scientists",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-4061.00/",
+      "code": "19-4061.00",
+      "title": "Social Science Research Assistants",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-2021.00/",
+      "code": "19-2021.00",
+      "title": "Atmospheric and Space Scientists",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-1029.01/",
+      "code": "19-1029.01",
+      "title": "Bioinformatics Scientists",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-3022.00/",
+      "code": "19-3022.00",
+      "title": "Survey Researchers",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-2099.01/",
+      "code": "15-2099.01",
+      "title": "Bioinformatics Technicians",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-2041.00/",
+      "code": "19-2041.00",
+      "title": "Environmental Scientists and Specialists, Including Health",
+      "tags": {}
+    }
+  ]
+}

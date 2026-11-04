@@ -1,0 +1,60 @@
+{
+  "start": 1,
+  "end": 8,
+  "total": 875,
+  "next": "https://api-v2.onetcenter.org/online/search?keyword=learning%20and%20development&start=9&end=16",
+  "occupation": [
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/25-2056.00/",
+      "code": "25-2056.00",
+      "title": "Special Education Teachers, Elementary School",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/25-2055.00/",
+      "code": "25-2055.00",
+      "title": "Special Education Teachers, Kindergarten",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/25-2051.00/",
+      "code": "25-2051.00",
+      "title": "Special Education Teachers, Preschool",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/25-2058.00/",
+      "code": "25-2058.00",
+      "title": "Special Education Teachers, Secondary School",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/25-9031.00/",
+      "code": "25-9031.00",
+      "title": "Instructional Coordinators",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/25-2057.00/",
+      "code": "25-2057.00",
+      "title": "Special Education Teachers, Middle School",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/11-3131.00/",
+      "code": "11-3131.00",
+      "title": "Training and Development Managers",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/",
+      "code": "13-1151.00",
+      "title": "Training and Development Specialists",
+      "tags": {
+        "bright_outlook": true
+      }
+    }
+  ]
+}

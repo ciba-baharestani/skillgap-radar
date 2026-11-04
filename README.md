@@ -45,3 +45,7 @@ Few programs target ed-tech product roles directly, so I used ed-tech leadership
 - Adzuna descriptions are cut at 500 characters (average length is exactly 500)
 - Salary: 70% of postings (386 of 551) have predicted salaries (salary_is_predicted = 1); only the 165 stated salaries are used for salary analysis
 - Broad searches (e.g. "training manager", "learning analytics") return some irrelevant jobs; a relevance filter is needed in cleaning
+
+- O*NET occupation mapping: keyword search is literal (e.g. "product manager" returned biodiesel managers), so 7 occupations were chosen by hand and saved in data/onet_occupations.csv
+- O*NET has no "learning analyst" or "ed-tech product manager" occupation; Learning Analytics uses data scientist and BI analyst as proxies, and Ed-Tech Product uses project management occupations as loose proxies
+- O*NET data is licensed CC BY 4.0, so the README must credit "O*NET Web Services, U.S. Department of Labor, Employment and Training Administration"

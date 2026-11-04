@@ -1,0 +1,62 @@
+{
+  "start": 1,
+  "end": 8,
+  "total": 868,
+  "next": "https://api-v2.onetcenter.org/online/search?keyword=product%20manager&start=9&end=16",
+  "occupation": [
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/11-2021.00/",
+      "code": "11-2021.00",
+      "title": "Marketing Managers",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/27-1021.00/",
+      "code": "27-1021.00",
+      "title": "Commercial and Industrial Designers",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/41-9031.00/",
+      "code": "41-9031.00",
+      "title": "Sales Engineers",
+      "tags": {
+        "bright_outlook": true
+      }
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/41-9011.00/",
+      "code": "41-9011.00",
+      "title": "Demonstrators and Product Promoters",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/11-9041.01/",
+      "code": "11-9041.01",
+      "title": "Biofuels/Biodiesel Technology and Product Development Managers",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/11-3051.00/",
+      "code": "11-3051.00",
+      "title": "Industrial Production Managers",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/11-3051.03/",
+      "code": "11-3051.03",
+      "title": "Biofuels Production Managers",
+      "tags": {}
+    },
+    {
+      "href": "https://api-v2.onetcenter.org/online/occupations/11-3071.04/",
+      "code": "11-3071.04",
+      "title": "Supply Chain Managers",
+      "tags": {
+        "bright_outlook": true
+      }
+    }
+  ]
+}
