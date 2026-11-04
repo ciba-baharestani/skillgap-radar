@@ -38,3 +38,10 @@ Few programs target ed-tech product roles directly, so I used ed-tech leadership
 - UW-Green Bay and Kennesaw State could not be checked by script (local SSL error) and were skipped
 - Few US programs target ed-tech product roles directly, so ed-tech leadership programs are used as proxies
 - Skill taxonomy: draft of 57 skills built by hand (data/taxonomy_draft.csv), including skills from my teaching and MBA background; to be extended with O*NET skills
+
+- Adzuna collection: 12 search phrases x 1 page x 50 results = 551 postings (549 unique), collected with a call-capped script (src/collect_adzuna.py) on the free trial (25 calls total)
+- Sample comes from relevance-ranked top results, so it is not representative of the whole market
+- "edtech product manager" has only 6 matches in all of Adzuna, so the Ed-Tech Product family is thin
+- Adzuna descriptions are cut at 500 characters (average length is exactly 500)
+- Salary: 70% of postings (386 of 551) have predicted salaries (salary_is_predicted = 1); only the 165 stated salaries are used for salary analysis
+- Broad searches (e.g. "training manager", "learning analytics") return some irrelevant jobs; a relevance filter is needed in cleaning
