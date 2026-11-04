@@ -49,3 +49,6 @@ Few programs target ed-tech product roles directly, so I used ed-tech leadership
 - O*NET occupation mapping: keyword search is literal (e.g. "product manager" returned biodiesel managers), so 7 occupations were chosen by hand and saved in data/onet_occupations.csv
 - O*NET has no "learning analyst" or "ed-tech product manager" occupation; Learning Analytics uses data scientist and BI analyst as proxies, and Ed-Tech Product uses project management occupations as loose proxies
 - O*NET data is licensed CC BY 4.0, so the README must credit "O*NET Web Services, U.S. Department of Labor, Employment and Training Administration"
+
+- Skill taxonomy: 70 skills = 57 hand-built (teaching/MBA/ed-tech knowledge) + 13 added after reviewing O*NET technology data. O*NET covered only 11 of the first 57 (19%), so the hand-built list is the core
+- O*NET's 35 generic skills (e.g. Active Listening, Instructing) are kept as a separate profile layer, not used for text matching, because they would match almost every posting

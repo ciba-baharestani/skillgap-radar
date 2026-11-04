@@ -56,3 +56,16 @@ PP08,Cross-functional collaboration,People skills,cross-functional teams;team co
 BP08,Strategic planning,Business and product,business strategy;business acumen;strategy,manual
 BP09,Budget management,Business and product,budgeting;financial management;cost management,manual
 BP10,Data-driven decision making,Business and product,data-informed decision making;metrics;kpis,manual
+PC01,Microsoft Office,Productivity and collaboration,microsoft 365;office 365;powerpoint;microsoft powerpoint;microsoft word;microsoft outlook,onet-review
+PC02,Google Workspace,Productivity and collaboration,g suite;google docs;google slides;google drive;google sites,onet-review
+PC03,SharePoint,Productivity and collaboration,microsoft sharepoint,onet-review
+PC04,Video conferencing tools,Productivity and collaboration,zoom;webex;cisco webex;google meet;gotomeeting;microsoft teams,onet-review
+DA11,SPSS,Data and analytics,ibm spss;spss statistics,onet-review
+DA12,SAS,Data and analytics,sas software;sas programming,onet-review
+SW01,Git,Software and web,github;gitlab;version control,onet-review
+SW02,JavaScript,Software and web,javascript programming,onet-review
+BP11,Jira,Business and product,atlassian jira;jira software,onet-review
+BP12,Confluence,Business and product,atlassian confluence,onet-review
+BP13,Microsoft Project,Business and product,ms project,onet-review
+BP14,CRM software,Business and product,crm;salesforce;hubspot;microsoft dynamics;customer relationship management,onet-review
+LMS09,HRIS,LMS and platforms,hrms;human resource management software;human resources information system,onet-review

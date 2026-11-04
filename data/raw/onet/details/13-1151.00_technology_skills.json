@@ -1,0 +1,752 @@
+{
+  "start": 1,
+  "end": 32,
+  "total": 32,
+  "hot_technology": {
+    "total": 27,
+    "href": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/hot_technology"
+  },
+  "in_demand_skills": {
+    "total": 27,
+    "href": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/details/in_demand_skills"
+  },
+  "category": [
+    {
+      "code": 43232408,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232408",
+      "title": "Web platform development software",
+      "example": [
+        {
+          "title": "Django",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Django",
+          "hot_technology": true
+        },
+        {
+          "title": "Hypertext markup language HTML",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Hypertext%20markup%20language%20HTML",
+          "hot_technology": true
+        },
+        {
+          "title": "JavaScript",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/JavaScript",
+          "hot_technology": true
+        },
+        {
+          "title": "PHP",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/PHP",
+          "hot_technology": true
+        }
+      ],
+      "example_more": [
+        {
+          "title": "Apache Struts",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Apache%20Struts"
+        },
+        {
+          "title": "Backbone.js",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Backbone.js"
+        },
+        {
+          "title": "Drupal",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Drupal"
+        }
+      ]
+    },
+    {
+      "code": 43232502,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232502",
+      "title": "Computer based training software",
+      "example": [
+        {
+          "title": "Common Curriculum",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Common%20Curriculum"
+        },
+        {
+          "title": "Learning management system LMS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Learning%20management%20system%20LMS",
+          "in_demand": true,
+          "percentage": 15
+        },
+        {
+          "title": "Moodle",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Moodle"
+        },
+        {
+          "title": "SumTotal Systems ToolBook",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/SumTotal%20Systems%20ToolBook"
+        }
+      ],
+      "example_more": [
+        {
+          "title": "Adobe Authorware",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Adobe%20Authorware"
+        },
+        {
+          "title": "Adobe Captivate",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Adobe%20Captivate"
+        },
+        {
+          "title": "Adobe Presenter",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Adobe%20Presenter"
+        },
+        {
+          "title": "Alchemy Systems SISTEM",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Alchemy%20Systems%20SISTEM"
+        },
+        {
+          "title": "Articulate Rapid E-Learning Studio",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Articulate%20Rapid%20E-Learning%20Studio"
+        },
+        {
+          "title": "Beeline Learning Management System LMS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Beeline%20Learning%20Management%20System%20LMS"
+        },
+        {
+          "title": "Blatant Media Absorb LMS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Blatant%20Media%20Absorb%20LMS"
+        },
+        {
+          "title": "Brainshark Rapid Learning",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Brainshark%20Rapid%20Learning"
+        },
+        {
+          "title": "Cobent Learning and Compliance Suite LCS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Cobent%20Learning%20and%20Compliance%20Suite%20LCS"
+        },
+        {
+          "title": "Computer Generated Solutions Learning Management System",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Computer%20Generated%20Solutions%20Learning%20Management%20System"
+        },
+        {
+          "title": "dominKnow Learning Center",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/dominKnow%20Learning%20Center"
+        },
+        {
+          "title": "Eedo Knowledgeware Eedo Force Ten",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Eedo%20Knowledgeware%20Eedo%20Force%20Ten"
+        },
+        {
+          "title": "ElearningForce JoomlaLMS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/ElearningForce%20JoomlaLMS"
+        },
+        {
+          "title": "EZ LCMS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/EZ%20LCMS"
+        },
+        {
+          "title": "FlexTraining Total e-Learning Solution",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/FlexTraining%20Total%20e-Learning%20Solution"
+        },
+        {
+          "title": "G-Cube Solutions Wizdom Web LMS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/G-Cube%20Solutions%20Wizdom%20Web%20LMS"
+        },
+        {
+          "title": "GeoMetrix Data Systems Training Partner",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/GeoMetrix%20Data%20Systems%20Training%20Partner"
+        },
+        {
+          "title": "Halogen eLMS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Halogen%20eLMS"
+        },
+        {
+          "title": "ICS Learning Group Inquisiq EX",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/ICS%20Learning%20Group%20Inquisiq%20EX"
+        },
+        {
+          "title": "Ikonami AT-Learning Tool",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Ikonami%20AT-Learning%20Tool"
+        },
+        {
+          "title": "Inspired eLearning iLMS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Inspired%20eLearning%20iLMS"
+        },
+        {
+          "title": "Intelladon Enterprise Knowledge Platform EKP",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Intelladon%20Enterprise%20Knowledge%20Platform%20EKP"
+        },
+        {
+          "title": "Intelligent Information Conversion Technologies MeritScholar",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Intelligent%20Information%20Conversion%20Technologies%20MeritScholar"
+        },
+        {
+          "title": "Intellum Rollbook",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Intellum%20Rollbook"
+        },
+        {
+          "title": "Learn HQ Activate LMS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Learn%20HQ%20Activate%20LMS"
+        },
+        {
+          "title": "Medworxx Learning Management System",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Medworxx%20Learning%20Management%20System"
+        },
+        {
+          "title": "Mzinga On-Demand Learning Suite",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Mzinga%20On-Demand%20Learning%20Suite"
+        },
+        {
+          "title": "NetDimensions Enterprise Knowledge Platform EKP",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/NetDimensions%20Enterprise%20Knowledge%20Platform%20EKP"
+        },
+        {
+          "title": "OnPoint Digital OnPoint Learning & Performance Suite",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/OnPoint%20Digital%20OnPoint%20Learning%20%26%20Performance%20Suite"
+        },
+        {
+          "title": "Operitel LearnFlex",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Operitel%20LearnFlex"
+        },
+        {
+          "title": "Pathlore LMS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Pathlore%20LMS"
+        },
+        {
+          "title": "Plateau Learning Management System LMS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Plateau%20Learning%20Management%20System%20LMS"
+        },
+        {
+          "title": "PRO-ductivity Systems Compliance Training Manager Web",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/PRO-ductivity%20Systems%20Compliance%20Training%20Manager%20Web"
+        },
+        {
+          "title": "Qarbon ViewletBuilder Professional",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Qarbon%20ViewletBuilder%20Professional"
+        },
+        {
+          "title": "Right Reason Technologies RightTrack",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Right%20Reason%20Technologies%20RightTrack"
+        },
+        {
+          "title": "RISC Virtual Training Assistant",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/RISC%20Virtual%20Training%20Assistant"
+        },
+        {
+          "title": "SkillSoft SkillPort",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/SkillSoft%20SkillPort"
+        },
+        {
+          "title": "SumTotal Systems TotalLMS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/SumTotal%20Systems%20TotalLMS"
+        },
+        {
+          "title": "techniques.org knowledgeWorks LMS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/techniques.org%20knowledgeWorks%20LMS"
+        },
+        {
+          "title": "Telania eLeaP Learning Management System LMS/LCMS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Telania%20eLeaP%20Learning%20Management%20System%20LMS%2FLCMS"
+        },
+        {
+          "title": "The Human Equation InSite LMS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/The%20Human%20Equation%20InSite%20LMS"
+        },
+        {
+          "title": "TrainCaster LMS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/TrainCaster%20LMS"
+        },
+        {
+          "title": "TrainOnTrack Learning Management System LMS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/TrainOnTrack%20Learning%20Management%20System%20LMS"
+        },
+        {
+          "title": "Upside Learning UpsideLMS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Upside%20Learning%20UpsideLMS"
+        },
+        {
+          "title": "Xerceo Learn",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Xerceo%20Learn"
+        },
+        {
+          "title": "Xyleme Learning Content Management System LCMS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Xyleme%20Learning%20Content%20Management%20System%20LCMS"
+        },
+        {
+          "title": "Ziiva Prosperity LMS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Ziiva%20Prosperity%20LMS"
+        }
+      ]
+    },
+    {
+      "code": 43233502,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43233502",
+      "title": "Video conferencing software",
+      "example": [
+        {
+          "title": "Cisco Webex",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Cisco%20Webex",
+          "hot_technology": true
+        },
+        {
+          "title": "Google Meet",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Google%20Meet"
+        },
+        {
+          "title": "LogMeIn GoToMeeting",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/LogMeIn%20GoToMeeting"
+        },
+        {
+          "title": "Zoom",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Zoom",
+          "hot_technology": true
+        }
+      ],
+      "example_more": [
+        {
+          "title": "Microsoft NetMeeting",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Microsoft%20NetMeeting"
+        }
+      ]
+    },
+    {
+      "code": 43232106,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232106",
+      "title": "Presentation software",
+      "example": [
+        {
+          "title": "Google Slides",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Google%20Slides"
+        },
+        {
+          "title": "Mentimeter",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Mentimeter"
+        },
+        {
+          "title": "Microsoft PowerPoint",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20PowerPoint",
+          "hot_technology": true,
+          "in_demand": true,
+          "percentage": 17
+        },
+        {
+          "title": "Poll Everywhere",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Poll%20Everywhere"
+        }
+      ],
+      "example_more": [
+        {
+          "title": "Prezi",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Prezi"
+        }
+      ]
+    },
+    {
+      "code": 43232102,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232102",
+      "title": "Graphics or photo imaging software",
+      "example": [
+        {
+          "title": "Adobe Creative Cloud software",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Adobe%20Creative%20Cloud%20software",
+          "hot_technology": true
+        },
+        {
+          "title": "Adobe Illustrator",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Adobe%20Illustrator",
+          "hot_technology": true
+        },
+        {
+          "title": "Adobe Photoshop",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Adobe%20Photoshop",
+          "hot_technology": true
+        },
+        {
+          "title": "SmugMug Flickr",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/SmugMug%20Flickr"
+        }
+      ]
+    },
+    {
+      "code": 43232202,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232202",
+      "title": "Document management software",
+      "example": [
+        {
+          "title": "Adobe Acrobat",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Adobe%20Acrobat",
+          "hot_technology": true
+        },
+        {
+          "title": "HP Trim",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/HP%20Trim"
+        },
+        {
+          "title": "Interwoven software",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Interwoven%20software"
+        },
+        {
+          "title": "Microsoft SharePoint",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20SharePoint",
+          "hot_technology": true
+        }
+      ]
+    },
+    {
+      "code": 43232103,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232103",
+      "title": "Video creation and editing software",
+      "example": [
+        {
+          "title": "Adobe After Effects",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Adobe%20After%20Effects",
+          "hot_technology": true
+        },
+        {
+          "title": "Apple Final Cut Pro",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Apple%20Final%20Cut%20Pro"
+        },
+        {
+          "title": "Screencast-O-Matic",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Screencast-O-Matic"
+        },
+        {
+          "title": "WeVideo",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/WeVideo"
+        }
+      ]
+    },
+    {
+      "code": 43232306,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232306",
+      "title": "Data base user interface and query software",
+      "example": [
+        {
+          "title": "Blackboard software",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Blackboard%20software"
+        },
+        {
+          "title": "Database software",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Database%20software"
+        },
+        {
+          "title": "FileMaker Pro",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/FileMaker%20Pro"
+        },
+        {
+          "title": "Microsoft Access",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Access",
+          "hot_technology": true
+        }
+      ]
+    },
+    {
+      "code": 43231602,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43231602",
+      "title": "Enterprise resource planning ERP software",
+      "example": [
+        {
+          "title": "Oracle PeopleSoft",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Oracle%20PeopleSoft",
+          "hot_technology": true
+        },
+        {
+          "title": "Oracle PeopleSoft Financials",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20PeopleSoft%20Financials"
+        },
+        {
+          "title": "SAP software",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/SAP%20software",
+          "hot_technology": true
+        }
+      ]
+    },
+    {
+      "code": 43233501,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43233501",
+      "title": "Electronic mail software",
+      "example": [
+        {
+          "title": "IBM Notes",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/IBM%20Notes"
+        },
+        {
+          "title": "Microsoft Outlook",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Outlook",
+          "hot_technology": true,
+          "in_demand": true,
+          "percentage": 7
+        }
+      ]
+    },
+    {
+      "code": 43232112,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232112",
+      "title": "Desktop publishing software",
+      "example": [
+        {
+          "title": "Adobe InDesign",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Adobe%20InDesign",
+          "hot_technology": true
+        },
+        {
+          "title": "Microsoft Publisher",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Microsoft%20Publisher"
+        }
+      ]
+    },
+    {
+      "code": 43232303,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232303",
+      "title": "Customer relationship management CRM software",
+      "example": [
+        {
+          "title": "Blackbaud The Raiser's Edge",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Blackbaud%20The%20Raiser's%20Edge"
+        },
+        {
+          "title": "Microsoft Dynamics",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Microsoft%20Dynamics"
+        }
+      ]
+    },
+    {
+      "code": 43232104,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232104",
+      "title": "Word processing software",
+      "example": [
+        {
+          "title": "Microsoft OneNote",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Microsoft%20OneNote"
+        },
+        {
+          "title": "Microsoft Word",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Word",
+          "hot_technology": true
+        }
+      ]
+    },
+    {
+      "code": 43232304,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232304",
+      "title": "Data base management system software",
+      "example": [
+        {
+          "title": "MySQL",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/MySQL",
+          "hot_technology": true
+        },
+        {
+          "title": "Oracle PL/SQL",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Oracle%20PL%2FSQL",
+          "hot_technology": true
+        }
+      ]
+    },
+    {
+      "code": 43231505,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43231505",
+      "title": "Human resources software",
+      "example": [
+        {
+          "title": "Human resource management software HRMS",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Human%20resource%20management%20software%20HRMS"
+        },
+        {
+          "title": "Oracle Taleo",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20Taleo"
+        }
+      ]
+    },
+    {
+      "code": 43232107,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232107",
+      "title": "Web page creation and editing software",
+      "example": [
+        {
+          "title": "Adobe Dreamweaver",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Adobe%20Dreamweaver"
+        },
+        {
+          "title": "Google Sites",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Google%20Sites"
+        }
+      ]
+    },
+    {
+      "code": 43232110,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232110",
+      "title": "Spreadsheet software",
+      "example": [
+        {
+          "title": "Microsoft Excel",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Excel",
+          "hot_technology": true,
+          "in_demand": true,
+          "percentage": 17
+        }
+      ]
+    },
+    {
+      "code": 43232610,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232610",
+      "title": "Medical software",
+      "example": [
+        {
+          "title": "Epic Systems",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Epic%20Systems",
+          "hot_technology": true
+        }
+      ]
+    },
+    {
+      "code": 43232701,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232701",
+      "title": "Application server software",
+      "example": [
+        {
+          "title": "Oracle WebLogic Server",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20WebLogic%20Server"
+        }
+      ]
+    },
+    {
+      "code": 43232901,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232901",
+      "title": "Access software",
+      "example": [
+        {
+          "title": "Citrix cloud computing software",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Citrix%20cloud%20computing%20software"
+        }
+      ]
+    },
+    {
+      "code": 43232402,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232402",
+      "title": "Development environment software",
+      "example": [
+        {
+          "title": "Adobe ActionScript",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Adobe%20ActionScript"
+        }
+      ]
+    },
+    {
+      "code": 43233503,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43233503",
+      "title": "Network conferencing software",
+      "example": [
+        {
+          "title": "LogMeIn GoToWebinar",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/LogMeIn%20GoToWebinar"
+        }
+      ]
+    },
+    {
+      "code": 43231513,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43231513",
+      "title": "Office suite software",
+      "example": [
+        {
+          "title": "Microsoft Office software",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Office%20software",
+          "hot_technology": true,
+          "in_demand": true,
+          "percentage": 19
+        }
+      ]
+    },
+    {
+      "code": 43233513,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43233513",
+      "title": "Cloud-based data access and sharing software",
+      "example": [
+        {
+          "title": "Google Drive",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Google%20Drive"
+        }
+      ]
+    },
+    {
+      "code": 43233004,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43233004",
+      "title": "Operating system software",
+      "example": [
+        {
+          "title": "Oracle Solaris",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20Solaris"
+        }
+      ]
+    },
+    {
+      "code": 43232314,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232314",
+      "title": "Business intelligence and data analysis software",
+      "example": [
+        {
+          "title": "Oracle Business Intelligence Enterprise Edition",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20Business%20Intelligence%20Enterprise%20Edition"
+        }
+      ]
+    },
+    {
+      "code": 43232405,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232405",
+      "title": "Object or component oriented development software",
+      "example": [
+        {
+          "title": "Advanced business application programming ABAP",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Advanced%20business%20application%20programming%20ABAP"
+        }
+      ]
+    },
+    {
+      "code": 43232505,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232505",
+      "title": "Multi-media educational software",
+      "example": [
+        {
+          "title": "Kahoot!",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Kahoot!"
+        }
+      ]
+    },
+    {
+      "code": 43232605,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232605",
+      "title": "Analytical or scientific software",
+      "example": [
+        {
+          "title": "IBM SPSS Statistics",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/IBM%20SPSS%20Statistics",
+          "hot_technology": true
+        }
+      ]
+    },
+    {
+      "code": 43232705,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43232705",
+      "title": "Internet browser software",
+      "example": [
+        {
+          "title": "Web browser software",
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Web%20browser%20software"
+        }
+      ]
+    },
+    {
+      "code": 43231507,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43231507",
+      "title": "Project management software",
+      "example": [
+        {
+          "title": "Microsoft Project",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Project",
+          "hot_technology": true
+        }
+      ]
+    },
+    {
+      "code": 43231518,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-1151.00/related/technology_skills/43231518",
+      "title": "Process mapping and design software",
+      "example": [
+        {
+          "title": "Microsoft Visio",
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Visio",
+          "hot_technology": true
+        }
+      ]
+    }
+  ]
+}
