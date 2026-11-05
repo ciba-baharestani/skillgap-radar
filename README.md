@@ -52,3 +52,11 @@ Few programs target ed-tech product roles directly, so I used ed-tech leadership
 
 - Skill taxonomy: 70 skills = 57 hand-built (teaching/MBA/ed-tech knowledge) + 13 added after reviewing O*NET technology data. O*NET covered only 11 of the first 57 (19%), so the hand-built list is the core
 - O*NET's 35 generic skills (e.g. Active Listening, Instructing) are kept as a separate profile layer, not used for text matching, because they would match almost every posting
+
+Taxonomy rows from MBA background to be kept or dropped based on validation results
+
+- Winona State: the page lists only competency areas, so the program's requirements PDF was downloaded manually and its course text copied into data/processed/program_text/winona_state_pdf.txt (manual supplement; not scraped)
+- Program pages differ in detail: programs with brief pages may show lower skill coverage because of thin web content, not a weaker curriculum
+
+- Program table (data/processed/programs.csv): price, credits and duration columns are regex "hints" (first match on each page) and are unreliable; they were not verified. The page text itself is used for skill coverage.
+- 13 program pages downloaded with requests, parsed with BeautifulSoup (strict cleanup, with a lighter fallback for pages like Drexel's that wrap content in tags the strict cleanup removes). Winona's course list came from a manually downloaded PDF.

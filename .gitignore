@@ -1,3 +1,10 @@
 .env
 
 data/raw/adzuna/
+
+data/raw/programs/
+
+data/raw/programs_manual/
+
+data/processed/program_text/
+data/raw/programs_manual/
