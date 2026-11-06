@@ -60,3 +60,18 @@ Taxonomy rows from MBA background to be kept or dropped based on validation resu
 
 - Program table (data/processed/programs.csv): price, credits and duration columns are regex "hints" (first match on each page) and are unreliable; they were not verified. The page text itself is used for skill coverage.
 - 13 program pages downloaded with requests, parsed with BeautifulSoup (strict cleanup, with a lighter fallback for pages like Drexel's that wrap content in tags the strict cleanup removes). Winona's course list came from a manually downloaded PDF.
+
+- Relevance filter: title keywords (learning, training, instruction, curriculum, etc.) keep 428 of 549 postings; the 121 dropped were reviewed by hand and some were rescued by judgment from their descriptions
+- Finding: a title-only filter misses real learning-analytics roles (e.g. a "Business Data Analyst" posting whose description is about training analytics), so descriptions matter more than titles
+- Manual review rule: keep a posting if the employer's work involves learning or education and the role involves training, learning design, learning data or ed-tech
+- Borderline rescues (education-sector data analysts, e.g. institutional research) are flagged low_confidence so results can be checked with and without them
+
+- Spot-check of 15 kept titles found 1 clear false positive ("Machine Learning Engineer" matched "learning"); machine/deep learning titles are now excluded. Family labels come from search phrases and are tested later by clustering.
+
+- Duplicates: the same job listed in multiple locations has different Adzuna IDs, so near-duplicates (same title, company and text) are checked separately from ID duplicates
+
+- Near-duplicates: 168 of 413 kept listings (41%) were exact copies of the same job (same title, company and text) posted under many locations, often looking like remote or nationwide postings. The analysis uses one row per distinct posting, with n_listings and n_locations recording the copies. Groups with differing text were kept as separate rows.
+
+- Deduplication: 413 kept listings became 255 distinct postings (same title, company and text); n_listings and n_locations keep the copy counts. Distinct postings per family: Instructional Design 106, Corporate L&D 92, Learning Analytics 34, Ed-Tech Product 23. Postings with a stated salary: 90.
+- Remote check: all 39 Norstella listings mention "remote" in their snippet, supporting one remote role posted under many locations. For other repeated postings (Humana, SERVPRO, CBRE, Colonial Life) the 500-character snippets don't say, so it is unknown whether they are one opening or several; some (e.g. CBRE, Colonial Life) may be real multi-site hiring.
+- Limitation: the Ed-Tech Product and Learning Analytics families are small, so results for them are tentative.
