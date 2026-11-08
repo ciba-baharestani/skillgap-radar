@@ -78,3 +78,9 @@ Taxonomy rows from MBA background to be kept or dropped based on validation resu
 
 - Second page of results was fetched for 4 broad searches (4 more Adzuna calls). It added 158 postings but only 15 distinct relevant ones, because relevance falls off further down the ranking. Page 2 was not fetched for the other searches, and the remaining trial calls were kept in reserve.
 - Spot-check found "Manager in Training" retail postings passing the title filter; "in training" is now excluded.
+
+- Skill extraction results: 72 of 266 distinct postings (27%) contain at least one taxonomy skill; 38 of 70 skills never matched. Probe: Python, Canvas, Moodle, Storyline, Tableau, Power BI, SCORM and xAPI appear in 0-1 postings, because the 500-character snippets cover the role summary, not the requirements list.
+- Matcher fixes found by probing: short acronyms exclude hyphenated job IDs (R-2221), optional plural endings added (subject matter experts), and the synonym "reporting" was removed from Data visualization because it matched "reporting to the Director".
+- The three MBA-flavored rows (strategic planning, budget management, data-driven decision making) matched few or no postings (about 1-2 each); to be reviewed after validation.
+
+- Distinctive terms (TF-IDF, src/distinctive_terms.py): with titles included, each family's top terms are mostly job-title words. This is partly circular, since the family labels came from title-based search phrases. A descriptions-only rerun tests whether families differ in substance.

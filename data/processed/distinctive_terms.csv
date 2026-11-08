@@ -1,0 +1,49 @@
+family,rank,term,score
+Corporate L&D,1,specialist,0.061
+Corporate L&D,2,learning development,0.0571
+Corporate L&D,3,development specialist,0.0554
+Corporate L&D,4,development,0.0523
+Corporate L&D,5,training,0.0419
+Corporate L&D,6,manager,0.0394
+Corporate L&D,7,training manager,0.0375
+Corporate L&D,8,sales,0.0312
+Corporate L&D,9,employee,0.0256
+Corporate L&D,10,enablement,0.0242
+Corporate L&D,11,programs,0.0215
+Corporate L&D,12,grow,0.0213
+Ed-Tech Product,1,product,0.0911
+Ed-Tech Product,2,customer,0.063
+Ed-Tech Product,3,education,0.0498
+Ed-Tech Product,4,building,0.0458
+Ed-Tech Product,5,communities,0.0455
+Ed-Tech Product,6,ai,0.0403
+Ed-Tech Product,7,learn,0.0379
+Ed-Tech Product,8,make,0.0376
+Ed-Tech Product,9,students,0.0373
+Ed-Tech Product,10,future,0.037
+Ed-Tech Product,11,language,0.0361
+Ed-Tech Product,12,success,0.0355
+Instructional Design,1,curriculum,0.0691
+Instructional Design,2,curriculum developer,0.0406
+Instructional Design,3,developer,0.0375
+Instructional Design,4,design,0.0372
+Instructional Design,5,instructional,0.0367
+Instructional Design,6,designer,0.0364
+Instructional Design,7,experiences,0.0347
+Instructional Design,8,learning designer,0.0283
+Instructional Design,9,learning experiences,0.024
+Instructional Design,10,technology,0.0234
+Instructional Design,11,engaging,0.0221
+Instructional Design,12,content,0.0212
+Learning Analytics,1,data,0.0881
+Learning Analytics,2,analyst,0.0552
+Learning Analytics,3,education,0.0336
+Learning Analytics,4,lms,0.0318
+Learning Analytics,5,data analyst,0.0312
+Learning Analytics,6,center,0.0227
+Learning Analytics,7,based,0.0224
+Learning Analytics,8,college,0.0216
+Learning Analytics,9,make,0.0212
+Learning Analytics,10,analytics,0.0207
+Learning Analytics,11,data center,0.0201
+Learning Analytics,12,reporting,0.0199
