@@ -11,11 +11,19 @@ APP_KEY = os.getenv("ADZUNA_APP_KEY")
 
 # ---- Settings you can change ----
 DRY_RUN = False        # True = only print the plan, use NO API calls
-MAX_CALLS = 11         # safety cap per run (start with 1, then raise it)
-PAGES = [1]           # which result pages to fetch for each search
+MAX_CALLS = 4         # safety cap per run (start with 1, then raise it)
+PAGES = [1, 2]           # which result pages to fetch for each search
 RESULTS_PER_PAGE = 50
 SLEEP_SECONDS = 2
+
 # ---------------------------------
+
+PAGE2_ONLY_FOR = {
+    "learning product manager",
+    "customer success education",
+    "learning analytics",
+    "learning and development analyst",
+}
 
 SEARCHES = {
     "Instructional Design": [
@@ -47,6 +55,8 @@ calls_made = 0
 for family, phrases in SEARCHES.items():
     for phrase in phrases:
         for page in PAGES:
+            if page == 2 and phrase not in PAGE2_ONLY_FOR:
+                continue
             slug = phrase.replace(" ", "_")
             path = f"{OUT_DIR}/{slug}_p{page}.json"
 

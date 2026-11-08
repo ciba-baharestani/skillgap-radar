@@ -75,3 +75,6 @@ Taxonomy rows from MBA background to be kept or dropped based on validation resu
 - Deduplication: 413 kept listings became 255 distinct postings (same title, company and text); n_listings and n_locations keep the copy counts. Distinct postings per family: Instructional Design 106, Corporate L&D 92, Learning Analytics 34, Ed-Tech Product 23. Postings with a stated salary: 90.
 - Remote check: all 39 Norstella listings mention "remote" in their snippet, supporting one remote role posted under many locations. For other repeated postings (Humana, SERVPRO, CBRE, Colonial Life) the 500-character snippets don't say, so it is unknown whether they are one opening or several; some (e.g. CBRE, Colonial Life) may be real multi-site hiring.
 - Limitation: the Ed-Tech Product and Learning Analytics families are small, so results for them are tentative.
+
+- Second page of results was fetched for 4 broad searches (4 more Adzuna calls). It added 158 postings but only 15 distinct relevant ones, because relevance falls off further down the ranking. Page 2 was not fetched for the other searches, and the remaining trial calls were kept in reserve.
+- Spot-check found "Manager in Training" retail postings passing the title filter; "in training" is now excluded.

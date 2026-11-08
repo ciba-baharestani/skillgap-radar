@@ -23,18 +23,24 @@ LOW_CONFIDENCE = {
     "5945545983",  # WGU Lead IAR Data Analyst
 }
 
+EXCLUDE_TITLES = {
+    "senior product manager, eligibility & learning enablement",  # Humana, checked by hand: not a learning role
+}
+
 with open("data/processed/adzuna_postings.csv", newline="", encoding="utf-8") as f:
     rows = list(csv.DictReader(f))
 
 for r in rows:
-    if r["title_match"] == "True" and not any(d in r["title"].lower() for d in EXTRA_DROP):
-        r["relevance"] = "title keyword"
-    elif r["id"] in RESCUE_IDS:
-        r["relevance"] = "manual rescue"
-    else:
-        r["relevance"] = "dropped"
-    r["low_confidence"] = r["id"] in LOW_CONFIDENCE
-    r["salary_stated"] = bool(
+        if r["title"].lower().strip() in EXCLUDE_TITLES:
+         r["relevance"] = "dropped"
+        elif r["title_match"] == "True" and not any(d in r["title"].lower() for d in EXTRA_DROP):
+         r["relevance"] = "title keyword"
+        elif r["id"] in RESCUE_IDS:
+         r["relevance"] = "manual rescue"
+        else:
+         r["relevance"] = "dropped"
+        r["low_confidence"] = r["id"] in LOW_CONFIDENCE
+        r["salary_stated"] = bool(
         r["salary_is_predicted"] == "0" and (r["salary_min"] or r["salary_max"])
     )
 
@@ -66,4 +72,3 @@ print("Kept titles containing engineer/software/scientist:")
 for r in kept:
     if any(w in r["title"].lower() for w in ["engineer", "software", "scientist"]):
         print(f'  [{r["family"]}] {r["title"]} | {r["company"]}')
-        

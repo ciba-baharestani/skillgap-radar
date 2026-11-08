@@ -33,7 +33,7 @@ DA05,Tableau,Data and analytics,tableau desktop,manual
 DA06,Power BI,Data and analytics,powerbi;microsoft power bi,manual
 DA07,xAPI,Data and analytics,experience api;tin can;learning record store;lrs,manual
 DA08,Learning analytics,Data and analytics,educational data mining;learner analytics,manual
-DA09,Data visualization,Data and analytics,dashboards;data viz;reporting,manual
+DA09,Data visualization,Data and analytics,dashboards;data viz,manual
 DA10,Statistics,Data and analytics,statistical analysis,manual
 BP01,Stakeholder management,Business and product,stakeholder engagement;stakeholder communication,manual
 BP02,Project management,Business and product,project coordination;project planning;pmp,manual

@@ -9,7 +9,7 @@ KEEP_TERMS = [
     "enablement", "l&d", "talent development", "course", "academic",
     "teach", "e-learning", "elearning", "lms",
 ]
-DROP_TERMS = ["leader in training", "trainee"]
+DROP_TERMS = ["in training", "trainee"]
 
 
 def clean(text):
