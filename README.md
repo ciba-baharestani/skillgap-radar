@@ -3,84 +3,49 @@
 A tool that analyzes the US ed-tech/learning job market and shows educators
 which skills to learn next, and which training programs teach them.
 
+Status: data collection, cleaning and first skill extraction are done.
+In progress: validation on a hand-labeled sample, clustering, skill-gap scoring and a Streamlit app.
+
 ## Data sources
-- Adzuna Job Search API (job postings)
-- O*NET Web Services (skills taxonomy)
-- Public bootcamp/university program pages (web scraping)
+- **Adzuna Job Search API** (REST): US job postings for four role families
+- **O*NET Web Services** (REST): 7 occupations (245 skill rows, 557 tool rows), used as a reference layer
+- **University program pages** (requests + BeautifulSoup): 13 programs, saved as raw HTML, plus one manually downloaded PDF (Winona State)
+- **Skill taxonomy**: 70 skills, hand-built (teaching, ed-tech and MBA knowledge), extended after reviewing O*NET technology data
 
-## Notes to expand later
-- US market chosen because O*NET is a US taxonomy
-- Adzuna limits: [write the real numbers from their Terms]; "Jobs by Adzuna" attribution required
-- Adzuna descriptions are truncated snippets (~500 characters), so tools mentioned later in a posting are missed
-- O*NET account registered under the bootcamp (personal use not allowed); attribution required
-- O*NET has no "instructional designer" title; mapped to closest occupations (25-9031.00, 13-1151.00)
-- Scraping ethics: checked robots.txt and terms, polite delays, avoided LinkedIn and Indeed
-- Raw data saved to disk so analysis never depends on live sites
-- Role families are a hypothesis; compare with clustering results
-- Salary data is often missing; report coverage honestly
-- API keys kept in .env, never committed
+## Pipeline (scripts in src/, run in this order)
+1. collect_adzuna.py: call-capped collector, raw JSON saved to disk
+2. search_onet.py, pull_onet_skills.py, flatten_onet.py: O*NET occupations, skills and tools
+3. download_programs.py, preview_programs.py, build_program_table.py: program pages
+4. flatten_adzuna.py, apply_relevance.py, dedupe_adzuna.py: cleaning
+5. extract_skills.py, distinctive_terms.py, plot_skills.py: first analysis
+Helper checks: check_robots.py, check_adzuna.py, check_salary.py, check_duplicates.py, check_remote.py, probe_text.py
 
-Delaware: robots.txt allows all; terms of use checked, no scraping restriction found.
-Iowa State: Checked robots.txt for each site and excluded programs that disallow automated access.
+## Results so far
+- 709 unique Adzuna postings collected, 388 listings kept after relevance filtering (one Humana role with 37 copies was excluded after a manual check), 266 distinct postings after deduplication
+- Distinct postings per family: Instructional Design 106, Corporate L&D 89, Learning Analytics 45, Ed-Tech Product 26
+- Only 72 of 266 distinct postings (27%) contain any taxonomy skill; 38 of 70 skills never matched
+- Chart: figures/top_skills_by_family.png
 
-- Adzuna free trial gave 25 test calls; first test returned 18,703 postings for "instructional designer"
-- Program pages shortlisted (Instructional Design family): Delaware, SWU, Drexel, WKU, Oregon State, Georgetown. 
-- Purdue: robots.txt checked manually (the script hit a local SSL certificate error); program page path is not disallowed, so it is included
-- robots.txt checked for every program site with a Python script (check_robots.py); Iowa State disallows automated access, so it was excluded
-- Delaware: robots.txt allows all; terms of use checked, no scraping restriction found
-- Scraping approach: few pages (8-15), a pause between requests, raw HTML saved once, content used for analysis only
-- Georgetown: the shortlisted URL was a faculty subpage; the curriculum page will be used for scraping
+## Key decisions
+- US market, because O*NET is a US taxonomy
+- Role families (Instructional Design, Learning Analytics, Ed-Tech Product, Corporate L&D) are a hypothesis based on search phrases, to be tested by clustering
+- O*NET has no "instructional designer", "learning analyst" or "ed-tech product manager" occupation, so 7 occupations were chosen by hand and some serve as proxies (data scientist and BI analyst for Learning Analytics, project management occupations for Ed-Tech Product)
+- O*NET's 35 generic skills are kept as a separate profile layer, not used for text matching, because they would match almost every posting
+- Relevance: a title-keyword filter, then manual review of dropped postings. Rule: keep a posting if the employer's work involves learning or education and the role involves training, learning design, learning data or ed-tech. Machine-learning and "in training" (trainee) titles are excluded. One Humana posting was checked by hand and excluded.
+- Borderline rescues (education-sector data analysts) are flagged low_confidence, so results can be checked with and without them
+- Deduplication: 168 of 413 listings at that stage were exact copies (same title, company and text) posted under many locations. The analysis uses one row per distinct posting; n_listings and n_locations keep the copy counts. Whether copies are one opening or several is unknown, since the snippets rarely say (all 39 Norstella copies say "remote").
 
-Few programs target ed-tech product roles directly, so I used ed-tech leadership and general product management programs as proxies.
+## Known limitations
+- Adzuna descriptions are cut at 500 characters, so requirements (tools such as Python, Canvas, Storyline) are mostly invisible. Probe: those tools appear in 0-1 of 266 postings.
+- The sample is the top relevance-ranked results of 16 API calls (12 first pages plus 4 second pages), not the whole market. Page 2 added many off-topic postings.
+- Ed-Tech Product (26) and Learning Analytics (45) are small, so results for them are tentative.
+- 70% of salaries in the raw data are Adzuna predictions (salary_is_predicted = 1); only stated salaries are used, 95 distinct postings.
+- Family labels come from search phrases, and the distinctive-terms view is partly circular (job-title words dominate, even in a descriptions-only rerun; Ed-Tech Product terms are mostly employer mission language).
+- Program pages differ in detail (Winona's page lists only competency areas), so low coverage can mean a thin web page, not a weaker curriculum. The price, credits and duration columns in programs.csv are unverified regex hints.
+- The three MBA-flavored taxonomy rows (strategic planning, budget management, data-driven decision making) matched 0-2 postings each; to be kept or dropped after validation.
 
-- Final program list: 13 programs in 4 role families, saved in data/program_urls.csv
-- Excluded after robots.txt check: Iowa State, Drexel Online, Central Michigan, Michigan Tech, NC State (all disallow automated access). Drexel shows that rules differ by subdomain: drexel.edu allowed, online.drexel.edu blocked
-- UW-Green Bay and Kennesaw State could not be checked by script (local SSL error) and were skipped
-- Few US programs target ed-tech product roles directly, so ed-tech leadership programs are used as proxies
-- Skill taxonomy: draft of 57 skills built by hand (data/taxonomy_draft.csv), including skills from my teaching and MBA background; to be extended with O*NET skills
-
-- Adzuna collection: 12 search phrases x 1 page x 50 results = 551 postings (549 unique), collected with a call-capped script (src/collect_adzuna.py) on the free trial (25 calls total)
-- Sample comes from relevance-ranked top results, so it is not representative of the whole market
-- "edtech product manager" has only 6 matches in all of Adzuna, so the Ed-Tech Product family is thin
-- Adzuna descriptions are cut at 500 characters (average length is exactly 500)
-- Salary: 70% of postings (386 of 551) have predicted salaries (salary_is_predicted = 1); only the 165 stated salaries are used for salary analysis
-- Broad searches (e.g. "training manager", "learning analytics") return some irrelevant jobs; a relevance filter is needed in cleaning
-
-- O*NET occupation mapping: keyword search is literal (e.g. "product manager" returned biodiesel managers), so 7 occupations were chosen by hand and saved in data/onet_occupations.csv
-- O*NET has no "learning analyst" or "ed-tech product manager" occupation; Learning Analytics uses data scientist and BI analyst as proxies, and Ed-Tech Product uses project management occupations as loose proxies
-- O*NET data is licensed CC BY 4.0, so the README must credit "O*NET Web Services, U.S. Department of Labor, Employment and Training Administration"
-
-- Skill taxonomy: 70 skills = 57 hand-built (teaching/MBA/ed-tech knowledge) + 13 added after reviewing O*NET technology data. O*NET covered only 11 of the first 57 (19%), so the hand-built list is the core
-- O*NET's 35 generic skills (e.g. Active Listening, Instructing) are kept as a separate profile layer, not used for text matching, because they would match almost every posting
-
-Taxonomy rows from MBA background to be kept or dropped based on validation results
-
-- Winona State: the page lists only competency areas, so the program's requirements PDF was downloaded manually and its course text copied into data/processed/program_text/winona_state_pdf.txt (manual supplement; not scraped)
-- Program pages differ in detail: programs with brief pages may show lower skill coverage because of thin web content, not a weaker curriculum
-
-- Program table (data/processed/programs.csv): price, credits and duration columns are regex "hints" (first match on each page) and are unreliable; they were not verified. The page text itself is used for skill coverage.
-- 13 program pages downloaded with requests, parsed with BeautifulSoup (strict cleanup, with a lighter fallback for pages like Drexel's that wrap content in tags the strict cleanup removes). Winona's course list came from a manually downloaded PDF.
-
-- Relevance filter: title keywords (learning, training, instruction, curriculum, etc.) keep 428 of 549 postings; the 121 dropped were reviewed by hand and some were rescued by judgment from their descriptions
-- Finding: a title-only filter misses real learning-analytics roles (e.g. a "Business Data Analyst" posting whose description is about training analytics), so descriptions matter more than titles
-- Manual review rule: keep a posting if the employer's work involves learning or education and the role involves training, learning design, learning data or ed-tech
-- Borderline rescues (education-sector data analysts, e.g. institutional research) are flagged low_confidence so results can be checked with and without them
-
-- Spot-check of 15 kept titles found 1 clear false positive ("Machine Learning Engineer" matched "learning"); machine/deep learning titles are now excluded. Family labels come from search phrases and are tested later by clustering.
-
-- Duplicates: the same job listed in multiple locations has different Adzuna IDs, so near-duplicates (same title, company and text) are checked separately from ID duplicates
-
-- Near-duplicates: 168 of 413 kept listings (41%) were exact copies of the same job (same title, company and text) posted under many locations, often looking like remote or nationwide postings. The analysis uses one row per distinct posting, with n_listings and n_locations recording the copies. Groups with differing text were kept as separate rows.
-
-- Deduplication: 413 kept listings became 255 distinct postings (same title, company and text); n_listings and n_locations keep the copy counts. Distinct postings per family: Instructional Design 106, Corporate L&D 92, Learning Analytics 34, Ed-Tech Product 23. Postings with a stated salary: 90.
-- Remote check: all 39 Norstella listings mention "remote" in their snippet, supporting one remote role posted under many locations. For other repeated postings (Humana, SERVPRO, CBRE, Colonial Life) the 500-character snippets don't say, so it is unknown whether they are one opening or several; some (e.g. CBRE, Colonial Life) may be real multi-site hiring.
-- Limitation: the Ed-Tech Product and Learning Analytics families are small, so results for them are tentative.
-
-- Second page of results was fetched for 4 broad searches (4 more Adzuna calls). It added 158 postings but only 15 distinct relevant ones, because relevance falls off further down the ranking. Page 2 was not fetched for the other searches, and the remaining trial calls were kept in reserve.
-- Spot-check found "Manager in Training" retail postings passing the title filter; "in training" is now excluded.
-
-- Skill extraction results: 72 of 266 distinct postings (27%) contain at least one taxonomy skill; 38 of 70 skills never matched. Probe: Python, Canvas, Moodle, Storyline, Tableau, Power BI, SCORM and xAPI appear in 0-1 postings, because the 500-character snippets cover the role summary, not the requirements list.
-- Matcher fixes found by probing: short acronyms exclude hyphenated job IDs (R-2221), optional plural endings added (subject matter experts), and the synonym "reporting" was removed from Data visualization because it matched "reporting to the Director".
-- The three MBA-flavored rows (strategic planning, budget management, data-driven decision making) matched few or no postings (about 1-2 each); to be reviewed after validation.
-
-- Distinctive terms (TF-IDF, src/distinctive_terms.py): with titles included, each family's top terms are mostly job-title words. This is partly circular, since the family labels came from title-based search phrases. A descriptions-only rerun tests whether families differ in substance.
+## Data ethics and licensing
+- robots.txt was checked for every program site. Sites that disallow automated access (Iowa State, Drexel Online, Central Michigan, Michigan Tech, NC State) were excluded. Purdue was checked by hand, and UW-Green Bay and Kennesaw State could not be checked and were skipped. Scraping used a few pages, a pause between requests and raw HTML saved once. LinkedIn and Indeed were avoided because they prohibit scraping.
+- Adzuna: free trial of 25 API calls in total (about 17 used). The paid plan (not used) offers 5,000 calls a month and 500 a day. Attribution ("Jobs by Adzuna") is shown as a precaution. [Still to check in Adzuna's terms: whether storing and displaying posting text is allowed. Until then, results show only aggregate counts, and posting-level tables are kept local.]
+- O*NET data is licensed CC BY 4.0. Credit: O*NET Web Services, U.S. Department of Labor, Employment and Training Administration. O*NET account registered under my bootcamp (personal use is not allowed).
+- Raw Adzuna data, program page copies and posting-level tables are not committed to GitHub; run the pipeline with your own API keys to regenerate them. API keys are kept in .env and never committed.
