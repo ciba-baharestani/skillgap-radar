@@ -20,11 +20,37 @@ In progress: validation on a hand-labeled sample, clustering, skill-gap scoring 
 5. extract_skills.py, distinctive_terms.py, plot_skills.py: first analysis
 Helper checks: check_robots.py, check_adzuna.py, check_salary.py, check_duplicates.py, check_remote.py, probe_text.py
 
+# App
+
+A Streamlit app with two pages:
+
+- **Market view:** the most visible skills per role family, with one shared scale so families can be compared.
+- **Skill gap:** tick the skills you already have, pick a target role family, and see which of the most requested skills you are missing, plus programs whose public pages mention them.
+
+Run it locally:
+
+    py -m pip install streamlit
+    py -m streamlit run app.py
+
+The app reads only small count files in `data/app/` (no posting text). They are built by
+`src/build_app_data.py`, `src/build_fulltext_counts.py` and `src/build_program_skills.py`.
+
+
 ## Results so far
 - 709 unique Adzuna postings collected, 388 listings kept after relevance filtering (one Humana role with 37 copies was excluded after a manual check), 266 distinct postings after deduplication
 - Distinct postings per family: Instructional Design 106, Corporate L&D 89, Learning Analytics 45, Ed-Tech Product 26
 - Only 72 of 266 distinct postings (27%) contain any taxonomy skill; 38 of 70 skills never matched
 - Chart: figures/top_skills_by_family.png
+
+#validation
+I tested the skill matcher on a stratified random sample of 30 postings (quotas 8/8/7/7 across the four role families, seed 7). I read each posting in full and listed its skills, with LLM-assisted labeling as a second reader (calibration: the LLM found 86% of my hand labels, and I found 75% of the LLM's).
+
+- **Relevance filter:** 29 of 30 sampled postings were truly learning or ed-tech roles.
+- **Precision:** 11 of the 14 matcher matches in the sample were confirmed by the full-text labels. The other 3 are not checked yet.
+- **Recall: about 4%.** Adzuna cuts descriptions at 500 characters, so the matcher sees about 0.5 skills per posting, where reading the full text finds about 10.4.
+- **Decision:** the snippet counts are shown only as a "visible skills" view. The skill-gap page uses the 29 postings read in full (8 Instructional Design, 6 Ed-Tech Product, 8 Corporate L&D, 7 Learning Analytics).
+- **Taxonomy gaps:** I added three skills the validation showed were missing (instructional design, multimedia creation tools, AI tools). Most other gaps were employer-specific domain knowledge.
+- **MBA-flavored rows:** "Strategic planning" and "Budget management" are hidden in the app (rarely requested). "Data-driven decision making" stays (4 of 30 postings).
 
 ## Key decisions
 - US market, because O*NET is a US taxonomy
@@ -43,10 +69,18 @@ Helper checks: check_robots.py, check_adzuna.py, check_salary.py, check_duplicat
 - Family labels come from search phrases, and the distinctive-terms view is partly circular (job-title words dominate, even in a descriptions-only rerun; Ed-Tech Product terms are mostly employer mission language).
 - Program pages differ in detail (Winona's page lists only competency areas), so low coverage can mean a thin web page, not a weaker curriculum. The price, credits and duration columns in programs.csv are unverified regex hints.
 - The three MBA-flavored taxonomy rows (strategic planning, budget management, data-driven decision making) matched 0-2 postings each; to be kept or dropped after validation.
+- Job descriptions from the Adzuna API are cut at 500 characters (recall about 4%), and about 70% of salaries are predicted, not stated.
+- The skill-gap numbers rest on 29 hand-read postings (6 to 8 per family). They are rough indications, not market statistics.
+- Role families are my own hypothesis, and the family labels come from title search phrases, so some counts are partly circular (for example "Instructional design" in Instructional Design postings).
+- Program pages are short overviews, so "mentions a skill" does not mean "teaches it", and a missing skill may still be taught. Program names inflate "Instructional design".
+- Skill labels were made partly with LLM assistance. Code was written with AI assistance (Claude).
+
 
 ## Data ethics and licensing
 - robots.txt was checked for every program site. Sites that disallow automated access (Iowa State, Drexel Online, Central Michigan, Michigan Tech, NC State) were excluded. Purdue was checked by hand, and UW-Green Bay and Kennesaw State could not be checked and were skipped. Scraping used a few pages, a pause between requests and raw HTML saved once. LinkedIn and Indeed were avoided because they prohibit scraping.
-- Adzuna: free trial of 25 API calls in total (about 17 used). The paid plan (not used) offers 5,000 calls a month and 500 a day. Attribution ("Jobs by Adzuna") is shown as a precaution. [Still to check in Adzuna's terms: whether storing and displaying posting text is allowed. Until then, results show only aggregate counts, and posting-level tables are kept local.]
+- Adzuna: free trial of 25 API calls in total (about 17 used). The paid plan (not used) offers 5,000 calls a month and 500 a day. Attribution ("Jobs by Adzuna") is shown as a precaution. 
+Adzuna's API terms (developer.adzuna.com/docs/terms_of_service) permit personal and academic research and require attribution. They do not address storing posting text, so this repository and the app contain only aggregate counts, no posting text. This is a non-commercial academic project. Job market data from Adzuna (adzuna.com). Skill profile data: O*NET Web Services, U.S. Department of Labor, Employment and Training Administration, licensed CC BY 4.0.
+
 - O*NET data is licensed CC BY 4.0. Credit: O*NET Web Services, U.S. Department of Labor, Employment and Training Administration. O*NET account registered under my bootcamp (personal use is not allowed).
 - Raw Adzuna data, program page copies and posting-level tables are not committed to GitHub; run the pipeline with your own API keys to regenerate them. API keys are kept in .env and never committed.
 
