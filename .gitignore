@@ -12,3 +12,5 @@ data/raw/programs_manual/
 data/processed/adzuna_*
 
 data/processed/skill_matches.csv
+
+data/processed/validation_*
