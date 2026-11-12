@@ -1,0 +1,70 @@
+slug,skill_id,skill,category,mentions
+university_of_delaware,LD05,Bloom's taxonomy,Learning design,3
+university_of_delaware,LD06,Curriculum development,Learning design,8
+university_of_delaware,LD09,Accessibility,Learning design,2
+university_of_delaware,AT06,Video production,Authoring tools,1
+university_of_delaware,LMS01,Learning management system,LMS and platforms,1
+university_of_delaware,LMS02,Canvas,LMS and platforms,2
+university_of_delaware,BP02,Project management,Business and product,1
+university_of_delaware,LD15,Instructional design,Learning design,35
+university_of_delaware,AT08,Multimedia creation tools,Authoring tools,2
+southwestern_swu,LD06,Curriculum development,Learning design,2
+southwestern_swu,LMS01,Learning management system,LMS and platforms,4
+southwestern_swu,LMS02,Canvas,LMS and platforms,3
+southwestern_swu,LMS03,Moodle,LMS and platforms,1
+southwestern_swu,LMS04,Blackboard,LMS and platforms,1
+southwestern_swu,LD15,Instructional design,Learning design,8
+southwestern_swu,AT08,Multimedia creation tools,Authoring tools,3
+drexel,DA08,Learning analytics,Data and analytics,1
+drexel,LD15,Instructional design,Learning design,15
+western_kentucky_university,LMS04,Blackboard,LMS and platforms,1
+western_kentucky_university,DA10,Statistics,Data and analytics,1
+western_kentucky_university,PP02,Coaching,People skills,1
+western_kentucky_university,LD15,Instructional design,Learning design,13
+oregon_state,LD09,Accessibility,Learning design,2
+oregon_state,LMS02,Canvas,LMS and platforms,1
+oregon_state,PP04,Written communication,People skills,1
+oregon_state,LD15,Instructional design,Learning design,8
+oregon_state,AT08,Multimedia creation tools,Authoring tools,1
+georgetown_scs,LD05,Bloom's taxonomy,Learning design,3
+georgetown_scs,LD06,Curriculum development,Learning design,1
+georgetown_scs,LMS01,Learning management system,LMS and platforms,2
+georgetown_scs,LMS02,Canvas,LMS and platforms,2
+georgetown_scs,BP02,Project management,Business and product,1
+georgetown_scs,PC02,Google Workspace,Productivity and collaboration,1
+georgetown_scs,PC04,Video conferencing tools,Productivity and collaboration,1
+georgetown_scs,LD15,Instructional design,Learning design,12
+georgetown_scs,AT08,Multimedia creation tools,Authoring tools,2
+purdue,LD07,Storyboarding,Learning design,1
+purdue,LD11,Learning evaluation,Learning design,1
+purdue,DA10,Statistics,Data and analytics,1
+purdue,BP02,Project management,Business and product,6
+purdue,PP04,Written communication,People skills,1
+purdue,LD15,Instructional design,Learning design,27
+purdue,SW03,AI tools,Software and web,1
+university_of_north_dakota,LMS01,Learning management system,LMS and platforms,1
+university_of_north_dakota,DA03,R,Data and analytics,5
+university_of_north_dakota,DA08,Learning analytics,Data and analytics,18
+university_of_north_dakota,DA09,Data visualization,Data and analytics,3
+university_of_north_dakota,DA10,Statistics,Data and analytics,8
+university_of_north_dakota,BP06,ROI measurement,Business and product,1
+university_of_north_dakota,PP02,Coaching,People skills,1
+university_of_north_dakota,PP03,Presentation skills,People skills,1
+vanderbilt,DA08,Learning analytics,Data and analytics,9
+roosevelt_university,LMS06,Workday Learning,LMS and platforms,1
+roosevelt_university,PP01,Facilitation,People skills,1
+roosevelt_university,PP06,Virtual training,People skills,1
+roosevelt_university,LD15,Instructional design,Learning design,3
+winona_state,PP01,Facilitation,People skills,1
+winona_state,LD15,Instructional design,Learning design,3
+university_of_st_thomas,LD05,Bloom's taxonomy,Learning design,1
+university_of_st_thomas,BP02,Project management,Business and product,1
+university_of_st_thomas,LD14,Outcomes-based design,Learning design,1
+university_of_st_thomas,PC04,Video conferencing tools,Productivity and collaboration,1
+university_of_st_thomas,LD15,Instructional design,Learning design,2
+york_college_of_pennsylvania,LD06,Curriculum development,Learning design,1
+york_college_of_pennsylvania,LMS01,Learning management system,LMS and platforms,4
+york_college_of_pennsylvania,DA08,Learning analytics,Data and analytics,1
+york_college_of_pennsylvania,BP02,Project management,Business and product,1
+york_college_of_pennsylvania,PP02,Coaching,People skills,1
+york_college_of_pennsylvania,LD15,Instructional design,Learning design,8

@@ -86,6 +86,33 @@ with col_have:
     for r in have:
         st.markdown(f"- {r['skill']}: in {r['postings']} of {n_read} postings")
 
+
+st.subheader("4. Programs that mention these skills")
+base = Path(__file__).parent.parent / "data" / "app"
+with open(base / "program_info.csv", newline="", encoding="utf-8") as f:
+    info = {r["slug"]: r for r in csv.DictReader(f)}
+program_skills = {}
+with open(base / "program_skills.csv", newline="", encoding="utf-8") as f:
+    for r in csv.DictReader(f):
+        program_skills.setdefault(r["slug"], set()).add(r["skill"])
+
+missing_names = {r["skill"] for r in missing}
+ranked = []
+for slug, names in program_skills.items():
+    hit = sorted(names & missing_names)
+    if hit:
+        ranked.append((len(hit), info[slug], hit))
+ranked.sort(key=lambda x: (-x[0], x[1]["program"]))
+
+if not ranked:
+    st.write("No program in our list mentions the skills you are missing.")
+for count, p, hit in ranked[:5]:
+    st.markdown(f"**[{p['program']}]({p['url']})** covers {count} of your gaps: {', '.join(hit)}")
+st.caption(
+    "A program 'mentions' a skill when its public web page does. "
+    "The pages are short overviews, so a skill missing here may still be taught."
+)
+
 st.caption(
     f"Based on {n_read} {family} postings read in full by hand. "
     "It is a small random sample, so treat the numbers as rough. "
