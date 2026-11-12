@@ -1,0 +1,285 @@
+family,skill_id,skill,category,postings,family_labeled,share
+Corporate L&D,LD06,Curriculum development,Learning design,8,8,1.0
+Corporate L&D,PP01,Facilitation,People skills,8,8,1.0
+Corporate L&D,LMS01,Learning management system,LMS and platforms,8,8,1.0
+Corporate L&D,PP03,Presentation skills,People skills,7,8,0.875
+Corporate L&D,PP02,Coaching,People skills,6,8,0.75
+Corporate L&D,PC01,Microsoft Office,Productivity and collaboration,6,8,0.75
+Corporate L&D,BP02,Project management,Business and product,6,8,0.75
+Corporate L&D,PP08,Cross-functional collaboration,People skills,5,8,0.625
+Corporate L&D,PP04,Written communication,People skills,5,8,0.625
+Corporate L&D,LD08,Adult learning theory,Learning design,4,8,0.5
+Corporate L&D,LD11,Learning evaluation,Learning design,4,8,0.5
+Corporate L&D,BP04,SME collaboration,Business and product,4,8,0.5
+Corporate L&D,BP01,Stakeholder management,Business and product,4,8,0.5
+Corporate L&D,BP10,Data-driven decision making,Business and product,3,8,0.375
+Corporate L&D,LD04,Needs analysis,Learning design,3,8,0.375
+Corporate L&D,PP06,Virtual training,People skills,3,8,0.375
+Corporate L&D,LD01,ADDIE,Learning design,2,8,0.25
+Corporate L&D,AT03,Adobe Captivate,Authoring tools,2,8,0.25
+Corporate L&D,AT01,Articulate Storyline,Authoring tools,2,8,0.25
+Corporate L&D,BP14,CRM software,Business and product,2,8,0.25
+Corporate L&D,PP07,Learner engagement,People skills,2,8,0.25
+Corporate L&D,LMS06,Workday Learning,LMS and platforms,2,8,0.25
+Corporate L&D,AT02,Articulate Rise,Authoring tools,1,8,0.125
+Corporate L&D,AT04,Camtasia,Authoring tools,1,8,0.125
+Corporate L&D,PP05,Change management,People skills,1,8,0.125
+Corporate L&D,BP07,Customer success,Business and product,1,8,0.125
+Corporate L&D,DA04,Excel,Data and analytics,1,8,0.125
+Corporate L&D,PC02,Google Workspace,Productivity and collaboration,1,8,0.125
+Corporate L&D,AT07,SCORM,Authoring tools,1,8,0.125
+Corporate L&D,PC03,SharePoint,Productivity and collaboration,1,8,0.125
+Corporate L&D,PC04,Video conferencing tools,Productivity and collaboration,1,8,0.125
+Corporate L&D,AT06,Video production,Authoring tools,1,8,0.125
+Corporate L&D,SW03,AI tools,Software and web,0,8,0.0
+Corporate L&D,LD09,Accessibility,Learning design,0,8,0.0
+Corporate L&D,AT05,Adobe Creative Suite,Authoring tools,0,8,0.0
+Corporate L&D,BP03,Agile,Business and product,0,8,0.0
+Corporate L&D,LD03,Assessment design,Learning design,0,8,0.0
+Corporate L&D,LD02,Backward design,Learning design,0,8,0.0
+Corporate L&D,LMS04,Blackboard,LMS and platforms,0,8,0.0
+Corporate L&D,LD05,Bloom's taxonomy,Learning design,0,8,0.0
+Corporate L&D,LMS02,Canvas,LMS and platforms,0,8,0.0
+Corporate L&D,BP12,Confluence,Business and product,0,8,0.0
+Corporate L&D,LMS05,Cornerstone,LMS and platforms,0,8,0.0
+Corporate L&D,DA09,Data visualization,Data and analytics,0,8,0.0
+Corporate L&D,LD13,Differentiated instruction,Learning design,0,8,0.0
+Corporate L&D,LMS07,Docebo,LMS and platforms,0,8,0.0
+Corporate L&D,LD12,Formative assessment,Learning design,0,8,0.0
+Corporate L&D,SW01,Git,Software and web,0,8,0.0
+Corporate L&D,LMS09,HRIS,LMS and platforms,0,8,0.0
+Corporate L&D,LD15,Instructional design,Learning design,0,8,0.0
+Corporate L&D,SW02,JavaScript,Software and web,0,8,0.0
+Corporate L&D,BP11,Jira,Business and product,0,8,0.0
+Corporate L&D,DA08,Learning analytics,Data and analytics,0,8,0.0
+Corporate L&D,LMS08,Learning experience platform,LMS and platforms,0,8,0.0
+Corporate L&D,BP13,Microsoft Project,Business and product,0,8,0.0
+Corporate L&D,LMS03,Moodle,LMS and platforms,0,8,0.0
+Corporate L&D,AT08,Multimedia creation tools,Authoring tools,0,8,0.0
+Corporate L&D,LD14,Outcomes-based design,Learning design,0,8,0.0
+Corporate L&D,DA06,Power BI,Data and analytics,0,8,0.0
+Corporate L&D,BP05,Product management,Business and product,0,8,0.0
+Corporate L&D,DA02,Python,Data and analytics,0,8,0.0
+Corporate L&D,DA03,R,Data and analytics,0,8,0.0
+Corporate L&D,BP06,ROI measurement,Business and product,0,8,0.0
+Corporate L&D,LD10,SAM,Learning design,0,8,0.0
+Corporate L&D,DA12,SAS,Data and analytics,0,8,0.0
+Corporate L&D,DA11,SPSS,Data and analytics,0,8,0.0
+Corporate L&D,DA01,SQL,Data and analytics,0,8,0.0
+Corporate L&D,DA10,Statistics,Data and analytics,0,8,0.0
+Corporate L&D,LD07,Storyboarding,Learning design,0,8,0.0
+Corporate L&D,DA05,Tableau,Data and analytics,0,8,0.0
+Corporate L&D,DA07,xAPI,Data and analytics,0,8,0.0
+Ed-Tech Product,BP14,CRM software,Business and product,4,6,0.667
+Ed-Tech Product,PP02,Coaching,People skills,4,6,0.667
+Ed-Tech Product,PP08,Cross-functional collaboration,People skills,4,6,0.667
+Ed-Tech Product,BP01,Stakeholder management,Business and product,4,6,0.667
+Ed-Tech Product,LD06,Curriculum development,Learning design,3,6,0.5
+Ed-Tech Product,BP07,Customer success,Business and product,3,6,0.5
+Ed-Tech Product,PP04,Written communication,People skills,3,6,0.5
+Ed-Tech Product,PP01,Facilitation,People skills,2,6,0.333
+Ed-Tech Product,PC02,Google Workspace,Productivity and collaboration,2,6,0.333
+Ed-Tech Product,BP05,Product management,Business and product,2,6,0.333
+Ed-Tech Product,BP02,Project management,Business and product,2,6,0.333
+Ed-Tech Product,LD08,Adult learning theory,Learning design,1,6,0.167
+Ed-Tech Product,LMS02,Canvas,LMS and platforms,1,6,0.167
+Ed-Tech Product,BP10,Data-driven decision making,Business and product,1,6,0.167
+Ed-Tech Product,LD13,Differentiated instruction,Learning design,1,6,0.167
+Ed-Tech Product,LD12,Formative assessment,Learning design,1,6,0.167
+Ed-Tech Product,SW02,JavaScript,Software and web,1,6,0.167
+Ed-Tech Product,DA08,Learning analytics,Data and analytics,1,6,0.167
+Ed-Tech Product,LMS01,Learning management system,LMS and platforms,1,6,0.167
+Ed-Tech Product,PC01,Microsoft Office,Productivity and collaboration,1,6,0.167
+Ed-Tech Product,PP03,Presentation skills,People skills,1,6,0.167
+Ed-Tech Product,DA02,Python,Data and analytics,1,6,0.167
+Ed-Tech Product,DA01,SQL,Data and analytics,1,6,0.167
+Ed-Tech Product,PC04,Video conferencing tools,Productivity and collaboration,1,6,0.167
+Ed-Tech Product,PP06,Virtual training,People skills,1,6,0.167
+Ed-Tech Product,LD01,ADDIE,Learning design,0,6,0.0
+Ed-Tech Product,SW03,AI tools,Software and web,0,6,0.0
+Ed-Tech Product,LD09,Accessibility,Learning design,0,6,0.0
+Ed-Tech Product,AT03,Adobe Captivate,Authoring tools,0,6,0.0
+Ed-Tech Product,AT05,Adobe Creative Suite,Authoring tools,0,6,0.0
+Ed-Tech Product,BP03,Agile,Business and product,0,6,0.0
+Ed-Tech Product,AT02,Articulate Rise,Authoring tools,0,6,0.0
+Ed-Tech Product,AT01,Articulate Storyline,Authoring tools,0,6,0.0
+Ed-Tech Product,LD03,Assessment design,Learning design,0,6,0.0
+Ed-Tech Product,LD02,Backward design,Learning design,0,6,0.0
+Ed-Tech Product,LMS04,Blackboard,LMS and platforms,0,6,0.0
+Ed-Tech Product,LD05,Bloom's taxonomy,Learning design,0,6,0.0
+Ed-Tech Product,AT04,Camtasia,Authoring tools,0,6,0.0
+Ed-Tech Product,PP05,Change management,People skills,0,6,0.0
+Ed-Tech Product,BP12,Confluence,Business and product,0,6,0.0
+Ed-Tech Product,LMS05,Cornerstone,LMS and platforms,0,6,0.0
+Ed-Tech Product,DA09,Data visualization,Data and analytics,0,6,0.0
+Ed-Tech Product,LMS07,Docebo,LMS and platforms,0,6,0.0
+Ed-Tech Product,DA04,Excel,Data and analytics,0,6,0.0
+Ed-Tech Product,SW01,Git,Software and web,0,6,0.0
+Ed-Tech Product,LMS09,HRIS,LMS and platforms,0,6,0.0
+Ed-Tech Product,LD15,Instructional design,Learning design,0,6,0.0
+Ed-Tech Product,BP11,Jira,Business and product,0,6,0.0
+Ed-Tech Product,PP07,Learner engagement,People skills,0,6,0.0
+Ed-Tech Product,LD11,Learning evaluation,Learning design,0,6,0.0
+Ed-Tech Product,LMS08,Learning experience platform,LMS and platforms,0,6,0.0
+Ed-Tech Product,BP13,Microsoft Project,Business and product,0,6,0.0
+Ed-Tech Product,LMS03,Moodle,LMS and platforms,0,6,0.0
+Ed-Tech Product,AT08,Multimedia creation tools,Authoring tools,0,6,0.0
+Ed-Tech Product,LD04,Needs analysis,Learning design,0,6,0.0
+Ed-Tech Product,LD14,Outcomes-based design,Learning design,0,6,0.0
+Ed-Tech Product,DA06,Power BI,Data and analytics,0,6,0.0
+Ed-Tech Product,DA03,R,Data and analytics,0,6,0.0
+Ed-Tech Product,BP06,ROI measurement,Business and product,0,6,0.0
+Ed-Tech Product,LD10,SAM,Learning design,0,6,0.0
+Ed-Tech Product,DA12,SAS,Data and analytics,0,6,0.0
+Ed-Tech Product,AT07,SCORM,Authoring tools,0,6,0.0
+Ed-Tech Product,BP04,SME collaboration,Business and product,0,6,0.0
+Ed-Tech Product,DA11,SPSS,Data and analytics,0,6,0.0
+Ed-Tech Product,PC03,SharePoint,Productivity and collaboration,0,6,0.0
+Ed-Tech Product,DA10,Statistics,Data and analytics,0,6,0.0
+Ed-Tech Product,LD07,Storyboarding,Learning design,0,6,0.0
+Ed-Tech Product,DA05,Tableau,Data and analytics,0,6,0.0
+Ed-Tech Product,AT06,Video production,Authoring tools,0,6,0.0
+Ed-Tech Product,LMS06,Workday Learning,LMS and platforms,0,6,0.0
+Ed-Tech Product,DA07,xAPI,Data and analytics,0,6,0.0
+Instructional Design,LD06,Curriculum development,Learning design,8,8,1.0
+Instructional Design,LMS01,Learning management system,LMS and platforms,6,8,0.75
+Instructional Design,BP02,Project management,Business and product,6,8,0.75
+Instructional Design,LD01,ADDIE,Learning design,5,8,0.625
+Instructional Design,PP01,Facilitation,People skills,5,8,0.625
+Instructional Design,BP01,Stakeholder management,Business and product,5,8,0.625
+Instructional Design,PP02,Coaching,People skills,4,8,0.5
+Instructional Design,PP08,Cross-functional collaboration,People skills,4,8,0.5
+Instructional Design,LD07,Storyboarding,Learning design,4,8,0.5
+Instructional Design,PP04,Written communication,People skills,4,8,0.5
+Instructional Design,BP03,Agile,Business and product,3,8,0.375
+Instructional Design,AT02,Articulate Rise,Authoring tools,3,8,0.375
+Instructional Design,AT01,Articulate Storyline,Authoring tools,3,8,0.375
+Instructional Design,BP04,SME collaboration,Business and product,3,8,0.375
+Instructional Design,AT06,Video production,Authoring tools,3,8,0.375
+Instructional Design,PP06,Virtual training,People skills,3,8,0.375
+Instructional Design,AT05,Adobe Creative Suite,Authoring tools,2,8,0.25
+Instructional Design,LD08,Adult learning theory,Learning design,2,8,0.25
+Instructional Design,LD05,Bloom's taxonomy,Learning design,2,8,0.25
+Instructional Design,AT04,Camtasia,Authoring tools,2,8,0.25
+Instructional Design,LD11,Learning evaluation,Learning design,2,8,0.25
+Instructional Design,PC01,Microsoft Office,Productivity and collaboration,2,8,0.25
+Instructional Design,LD04,Needs analysis,Learning design,2,8,0.25
+Instructional Design,PP03,Presentation skills,People skills,2,8,0.25
+Instructional Design,LD09,Accessibility,Learning design,1,8,0.125
+Instructional Design,LD13,Differentiated instruction,Learning design,1,8,0.125
+Instructional Design,LD12,Formative assessment,Learning design,1,8,0.125
+Instructional Design,PC02,Google Workspace,Productivity and collaboration,1,8,0.125
+Instructional Design,LD10,SAM,Learning design,1,8,0.125
+Instructional Design,PC04,Video conferencing tools,Productivity and collaboration,1,8,0.125
+Instructional Design,LMS06,Workday Learning,LMS and platforms,1,8,0.125
+Instructional Design,SW03,AI tools,Software and web,0,8,0.0
+Instructional Design,AT03,Adobe Captivate,Authoring tools,0,8,0.0
+Instructional Design,LD03,Assessment design,Learning design,0,8,0.0
+Instructional Design,LD02,Backward design,Learning design,0,8,0.0
+Instructional Design,LMS04,Blackboard,LMS and platforms,0,8,0.0
+Instructional Design,BP14,CRM software,Business and product,0,8,0.0
+Instructional Design,LMS02,Canvas,LMS and platforms,0,8,0.0
+Instructional Design,PP05,Change management,People skills,0,8,0.0
+Instructional Design,BP12,Confluence,Business and product,0,8,0.0
+Instructional Design,LMS05,Cornerstone,LMS and platforms,0,8,0.0
+Instructional Design,BP07,Customer success,Business and product,0,8,0.0
+Instructional Design,DA09,Data visualization,Data and analytics,0,8,0.0
+Instructional Design,BP10,Data-driven decision making,Business and product,0,8,0.0
+Instructional Design,LMS07,Docebo,LMS and platforms,0,8,0.0
+Instructional Design,DA04,Excel,Data and analytics,0,8,0.0
+Instructional Design,SW01,Git,Software and web,0,8,0.0
+Instructional Design,LMS09,HRIS,LMS and platforms,0,8,0.0
+Instructional Design,LD15,Instructional design,Learning design,0,8,0.0
+Instructional Design,SW02,JavaScript,Software and web,0,8,0.0
+Instructional Design,BP11,Jira,Business and product,0,8,0.0
+Instructional Design,PP07,Learner engagement,People skills,0,8,0.0
+Instructional Design,DA08,Learning analytics,Data and analytics,0,8,0.0
+Instructional Design,LMS08,Learning experience platform,LMS and platforms,0,8,0.0
+Instructional Design,BP13,Microsoft Project,Business and product,0,8,0.0
+Instructional Design,LMS03,Moodle,LMS and platforms,0,8,0.0
+Instructional Design,AT08,Multimedia creation tools,Authoring tools,0,8,0.0
+Instructional Design,LD14,Outcomes-based design,Learning design,0,8,0.0
+Instructional Design,DA06,Power BI,Data and analytics,0,8,0.0
+Instructional Design,BP05,Product management,Business and product,0,8,0.0
+Instructional Design,DA02,Python,Data and analytics,0,8,0.0
+Instructional Design,DA03,R,Data and analytics,0,8,0.0
+Instructional Design,BP06,ROI measurement,Business and product,0,8,0.0
+Instructional Design,DA12,SAS,Data and analytics,0,8,0.0
+Instructional Design,AT07,SCORM,Authoring tools,0,8,0.0
+Instructional Design,DA11,SPSS,Data and analytics,0,8,0.0
+Instructional Design,DA01,SQL,Data and analytics,0,8,0.0
+Instructional Design,PC03,SharePoint,Productivity and collaboration,0,8,0.0
+Instructional Design,DA10,Statistics,Data and analytics,0,8,0.0
+Instructional Design,DA05,Tableau,Data and analytics,0,8,0.0
+Instructional Design,DA07,xAPI,Data and analytics,0,8,0.0
+Learning Analytics,DA09,Data visualization,Data and analytics,4,7,0.571
+Learning Analytics,DA08,Learning analytics,Data and analytics,4,7,0.571
+Learning Analytics,PP04,Written communication,People skills,4,7,0.571
+Learning Analytics,PP08,Cross-functional collaboration,People skills,3,7,0.429
+Learning Analytics,LMS01,Learning management system,LMS and platforms,3,7,0.429
+Learning Analytics,PC01,Microsoft Office,Productivity and collaboration,3,7,0.429
+Learning Analytics,PP03,Presentation skills,People skills,3,7,0.429
+Learning Analytics,DA10,Statistics,Data and analytics,3,7,0.429
+Learning Analytics,LD06,Curriculum development,Learning design,2,7,0.286
+Learning Analytics,DA04,Excel,Data and analytics,2,7,0.286
+Learning Analytics,PP01,Facilitation,People skills,2,7,0.286
+Learning Analytics,LD11,Learning evaluation,Learning design,2,7,0.286
+Learning Analytics,BP02,Project management,Business and product,2,7,0.286
+Learning Analytics,DA02,Python,Data and analytics,2,7,0.286
+Learning Analytics,DA03,R,Data and analytics,2,7,0.286
+Learning Analytics,BP04,SME collaboration,Business and product,2,7,0.286
+Learning Analytics,DA01,SQL,Data and analytics,2,7,0.286
+Learning Analytics,BP01,Stakeholder management,Business and product,2,7,0.286
+Learning Analytics,DA05,Tableau,Data and analytics,2,7,0.286
+Learning Analytics,LD01,ADDIE,Learning design,1,7,0.143
+Learning Analytics,LD09,Accessibility,Learning design,1,7,0.143
+Learning Analytics,AT03,Adobe Captivate,Authoring tools,1,7,0.143
+Learning Analytics,LD08,Adult learning theory,Learning design,1,7,0.143
+Learning Analytics,LD05,Bloom's taxonomy,Learning design,1,7,0.143
+Learning Analytics,PP02,Coaching,People skills,1,7,0.143
+Learning Analytics,LMS05,Cornerstone,LMS and platforms,1,7,0.143
+Learning Analytics,LD12,Formative assessment,Learning design,1,7,0.143
+Learning Analytics,SW01,Git,Software and web,1,7,0.143
+Learning Analytics,LMS09,HRIS,LMS and platforms,1,7,0.143
+Learning Analytics,AT07,SCORM,Authoring tools,1,7,0.143
+Learning Analytics,DA07,xAPI,Data and analytics,1,7,0.143
+Learning Analytics,SW03,AI tools,Software and web,0,7,0.0
+Learning Analytics,AT05,Adobe Creative Suite,Authoring tools,0,7,0.0
+Learning Analytics,BP03,Agile,Business and product,0,7,0.0
+Learning Analytics,AT02,Articulate Rise,Authoring tools,0,7,0.0
+Learning Analytics,AT01,Articulate Storyline,Authoring tools,0,7,0.0
+Learning Analytics,LD03,Assessment design,Learning design,0,7,0.0
+Learning Analytics,LD02,Backward design,Learning design,0,7,0.0
+Learning Analytics,LMS04,Blackboard,LMS and platforms,0,7,0.0
+Learning Analytics,BP14,CRM software,Business and product,0,7,0.0
+Learning Analytics,AT04,Camtasia,Authoring tools,0,7,0.0
+Learning Analytics,LMS02,Canvas,LMS and platforms,0,7,0.0
+Learning Analytics,PP05,Change management,People skills,0,7,0.0
+Learning Analytics,BP12,Confluence,Business and product,0,7,0.0
+Learning Analytics,BP07,Customer success,Business and product,0,7,0.0
+Learning Analytics,BP10,Data-driven decision making,Business and product,0,7,0.0
+Learning Analytics,LD13,Differentiated instruction,Learning design,0,7,0.0
+Learning Analytics,LMS07,Docebo,LMS and platforms,0,7,0.0
+Learning Analytics,PC02,Google Workspace,Productivity and collaboration,0,7,0.0
+Learning Analytics,LD15,Instructional design,Learning design,0,7,0.0
+Learning Analytics,SW02,JavaScript,Software and web,0,7,0.0
+Learning Analytics,BP11,Jira,Business and product,0,7,0.0
+Learning Analytics,PP07,Learner engagement,People skills,0,7,0.0
+Learning Analytics,LMS08,Learning experience platform,LMS and platforms,0,7,0.0
+Learning Analytics,BP13,Microsoft Project,Business and product,0,7,0.0
+Learning Analytics,LMS03,Moodle,LMS and platforms,0,7,0.0
+Learning Analytics,AT08,Multimedia creation tools,Authoring tools,0,7,0.0
+Learning Analytics,LD04,Needs analysis,Learning design,0,7,0.0
+Learning Analytics,LD14,Outcomes-based design,Learning design,0,7,0.0
+Learning Analytics,DA06,Power BI,Data and analytics,0,7,0.0
+Learning Analytics,BP05,Product management,Business and product,0,7,0.0
+Learning Analytics,BP06,ROI measurement,Business and product,0,7,0.0
+Learning Analytics,LD10,SAM,Learning design,0,7,0.0
+Learning Analytics,DA12,SAS,Data and analytics,0,7,0.0
+Learning Analytics,DA11,SPSS,Data and analytics,0,7,0.0
+Learning Analytics,PC03,SharePoint,Productivity and collaboration,0,7,0.0
+Learning Analytics,LD07,Storyboarding,Learning design,0,7,0.0
+Learning Analytics,PC04,Video conferencing tools,Productivity and collaboration,0,7,0.0
+Learning Analytics,AT06,Video production,Authoring tools,0,7,0.0
+Learning Analytics,PP06,Virtual training,People skills,0,7,0.0
+Learning Analytics,LMS06,Workday Learning,LMS and platforms,0,7,0.0
