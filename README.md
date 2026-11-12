@@ -1,5 +1,7 @@
 # SkillGap Radar
 
+**Live app:** https://skillgap-radar-kxypbiclo76hxz6rmnnkgj.streamlit.app/
+
 A tool that analyzes the US ed-tech/learning job market and shows educators
 which skills to learn next, and which training programs teach them.
 
