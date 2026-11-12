@@ -20,7 +20,7 @@ def load_counts():
 
 
 def bar_row(skill, n, total, biggest):
-    width = n / biggest * 100
+    width = n / total / biggest * 100
     pct = round(n / total * 100)
     return (
         '<div style="margin:10px 0">'
@@ -42,7 +42,7 @@ st.write("Which skills show up in US learning and ed-tech job postings?")
 family = st.selectbox("Role family", families)
 selected = [r for r in rows if r["family"] == family][:10]
 total = selected[0]["family_postings"]
-biggest = selected[0]["postings"]
+biggest = max(r["share"] for r in rows)
 
 st.subheader(f"Most visible skills: {family}")
 st.markdown(
