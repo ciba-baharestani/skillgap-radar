@@ -46,6 +46,14 @@ st.write(
     "and see what the market asks for that you don't have yet."
 )
 
+with st.expander("How does this work?"):
+    st.markdown(
+        "- **Your skills** start from a typical teacher profile that you can change.\n"
+        "- **The market** is 29 job postings I read in full by hand (6 to 8 per role family).\n"
+        "- **Skills to build** are the 12 most requested skills for the family that you did not tick.\n"
+        "- **Programs** are 13 US certificate programs whose public pages mention those skills."
+    )
+
 st.subheader("1. Your skills")
 use_preset = st.checkbox("Start from a typical teacher profile", value=True)
 my_skills = set()
