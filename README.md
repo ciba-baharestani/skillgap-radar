@@ -91,3 +91,13 @@ Adzuna's API terms (developer.adzuna.com/docs/terms_of_service) permit personal 
 - Validation (n = 30 full postings): the full text mentions on average 10.4 taxonomy skills per posting; the matcher finds 0.5 in the 500-character snippet. Recall is about 4% (11 of 313 labeled skills). When the matcher fires it is usually right (11 of 14 matches confirmed), but it fires rarely.
 - The full-text ranking differs from the snippet ranking: curriculum development (22 of 30), LMS (18), facilitation (18) and cross-functional collaboration (17) lead; SME collaboration, the top snippet skill, is not in the top 10. Percentages describe a stratified sample (8/8/7/7 per family), not the market.
 - MBA-flavored rows: strategic planning 0 of 30 and budget management 1 of 30 (dropped); data-driven decision making 4 of 30 (kept).
+
+## Clustering experiment (negative result)
+
+To test whether my four role families appear in the data, I clustered the 266 posting descriptions (title excluded, to avoid circularity) with TF-IDF and k-means, written with numpy because Windows blocked scikit-learn on Python 3.15 (`src/cluster_postings.py`).
+
+- Silhouette scores were 0.03 to 0.04 for k = 2 to 8, so there is no clear cluster structure.
+- At k = 4 the clusters match my families no better than chance (adjusted Rand index 0.03; shuffled labels: -0.01; purity 0.41, equal to the 40% baseline of labeling everything Instructional Design).
+- The clusters reflect writing style (startup language, apparent military postings), not role. The descriptions are cut at 500 characters, which is mostly the employer's introduction.
+
+Conclusion: the snippet text cannot confirm or reject the role families. They remain a hypothesis from search phrases, used as target categories in the app. Testing them properly would need full job descriptions.
