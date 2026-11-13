@@ -33,6 +33,13 @@ def bar_row(skill, n, total, biggest):
     )
 
 
+FAMILY_NOTES = {
+    "Instructional Design": "Designing courses and learning materials, often for schools, universities or companies.",
+    "Learning Analytics": "Using data to measure and improve learning: reports, dashboards, evaluation.",
+    "Ed-Tech Product": "Roles at ed-tech companies: product, customer success, implementation.",
+    "Corporate L&D": "Training and development for employees inside companies.",
+}
+
 rows = load_counts()
 families = sorted({r["family"] for r in rows})
 
@@ -40,6 +47,10 @@ st.title("SkillGap Radar")
 st.write("Which skills show up in US learning and ed-tech job postings?")
 
 family = st.selectbox("Role family", families)
+st.caption(
+    FAMILY_NOTES.get(family, "")
+    + " (This grouping is my own hypothesis, not an official classification.)"
+)
 selected = [r for r in rows if r["family"] == family][:10]
 total = selected[0]["family_postings"]
 biggest = max(r["share"] for r in rows)
