@@ -6,6 +6,7 @@ A tool that analyzes the US ed-tech/learning job market and shows educators
 which skills to learn next, and which training programs teach them.
 
 Status: complete. Data collection, cleaning, validation, a clustering experiment and the Streamlit app are done.
+Presentation slides: docs/SkillGap_Radar_presentation.pdf
 
 ## Data sources
 - **Adzuna Job Search API** (REST): US job postings for four role families
